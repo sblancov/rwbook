@@ -1,0 +1,6428 @@
+[
+    {
+        "name": "Ley",
+        "english": "Law",
+        "level": "0",
+        "sockets": "2",
+        "runes": [
+            "Hel",
+            "Hel"
+        ],
+        "type": [
+            "Hachas"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 26",
+            "+[120-170]% daño perfeccionado",
+            "15% velocidad de ataque aumentada",
+            "48 vida",
+            "24 maná",
+            "Ralentiza al Objetivo un 30%",
+            "mata a los monstruos"
+        ]
+    },
+    {
+        "name": "Saber",
+        "english": "Thirst for Knowledge",
+        "level": "11",
+        "sockets": "3",
+        "runes": [
+            "El",
+            "El",
+            "El"
+        ],
+        "type": [
+            "Espadas"
+        ],
+        "stats": [
+            "+100% daño perfeccionado",
+            "+[2-190] daño máximo (1.5 por nivel)",
+            "20% a la experiencia obtenida",
+            "+1 a todas las habilidades",
+            "15% velocidad de ataque aumentada",
+            "Aumenta los requisitos de nivel en 11"
+        ]
+    },
+    {
+        "name": "Nadir",
+        "english": "Nadir",
+        "level": "13",
+        "sockets": "2",
+        "runes": [
+            "Nef",
+            "Tir"
+        ],
+        "type": [
+            "Cascos"
+        ],
+        "stats": [
+            "+50% defensa perfeccionada",
+            "+10 defensa",
+            "-3 al radio de luz",
+            "Nivel 13 Capa de sombras (9 Cargas)",
+            "-33% oro extra de los monstruos",
+            "+5 fuerza"
+        ]
+    },
+    {
+        "name": "Acero",
+        "english": "Steel",
+        "level": "13",
+        "sockets": "2",
+        "runes": [
+            "Tir",
+            "El"
+        ],
+        "type": [
+            "Hachas",
+            "Espadas",
+            "Mazas"
+        ],
+        "stats": [
+            "25% velocidad de ataque aumentada",
+            "+3 al daño minimo",
+            "+3 al daño maximo",
+            "50% posibilidad de heridas abiertas",
+            "+20% daño perfeccionado"
+        ]
+    },
+    {
+        "name": "Sombra de duda",
+        "english": "Shadow of Doubt",
+        "level": "13",
+        "sockets": "2",
+        "runes": [
+            "El",
+            "Tir"
+        ],
+        "type": [
+            "Varas"
+        ],
+        "stats": [
+            "+[1-3] para habilidades de Maldiciones (solo nigromante)",
+            "+[1-3] para habilidades de Veneno y hueso (solo nigromante)",
+            "+[1-3] para habilidades de Invocación (solo nigromante)",
+            "+15% velocidad de lanzamiento mayor",
+            "+10% daño a habilidades de veneno"
+        ]
+    },
+    {
+        "name": "Deseo",
+        "english": "Desire",
+        "level": "13",
+        "sockets": "3",
+        "runes": [
+            "El",
+            "Tir",
+            "El"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armas",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+[30-50]% daño perfeccionado",
+            "+[30-50]% defensa perfeccionada",
+            "5 a todos los atributos",
+            "+[20-25]% mas posibilidades de conseguir un objeto mágico"
+        ]
+    },
+    {
+        "name": "Traición",
+        "english": "Treachery",
+        "level": "13",
+        "sockets": "2",
+        "runes": [
+            "Tir",
+            "Hel"
+        ],
+        "type": [
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 12",
+            "+40% posiblidad de bloqueo mayor",
+            "+100% defensa perfeccionada",
+            "50 maná",
+            "50 vida",
+            "-2% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Adrastea",
+        "english": "Adrastea",
+        "level": "13",
+        "sockets": "2",
+        "runes": [
+            "Tir",
+            "Leo"
+        ],
+        "type": [
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "25% Reanimarse como: El matasanos",
+            "25% Reanimarse como: Shanyzha",
+            "Absorbe el frio en 11%",
+            "Absorbe el rayo en 11%",
+            "Absorbe la magia en 11%",
+            "Absorbe el fuego en 11%",
+            "+2 a los niveles de habilidad del nigromante"
+        ]
+    },
+    {
+        "name": "Maldad",
+        "english": "Malice",
+        "level": "15",
+        "sockets": "3",
+        "runes": [
+            "Ith",
+            "El",
+            "Eth"
+        ],
+        "type": [
+            "Armas de melé"
+        ],
+        "stats": [
+            "100% posibilidad de heridas abiertas",
+            "-100 a la Defensa del Monstruo por Golpe",
+            "evita la curacion del monstruo",
+            "+33% daño perfeccionado",
+            "-1 al radio de luz",
+            "repostar vida -5"
+        ]
+    },
+    {
+        "name": "Fuerza",
+        "english": "Strength",
+        "level": "15",
+        "sockets": "2",
+        "runes": [
+            "Amn",
+            "Tir"
+        ],
+        "type": [
+            "Armas de melé"
+        ],
+        "stats": [
+            "+20 fuerza",
+            "+35% daño perfeccionado",
+            "+10 vitalidad",
+            "+25% golpe triturador"
+        ]
+    },
+    {
+        "name": "Serendipia",
+        "english": "Serendipity",
+        "level": "15",
+        "sockets": "2",
+        "runes": [
+            "Amn",
+            "Amn"
+        ],
+        "type": [
+            "Brazos de guerra"
+        ],
+        "stats": [
+            "+120% daño perfeccionado",
+            "50% posibilidad de lanzar el nivel 2 Vista interior al azotar",
+            "+20 energía",
+            "regenerar maná 50%",
+            "+20% velocidad de lanzamiento mayor"
+        ]
+    },
+    {
+        "name": "Imperio de la naturaleza",
+        "english": "Nature's Kingdom",
+        "level": "15",
+        "sockets": "2",
+        "runes": [
+            "Amn",
+            "Ith"
+        ],
+        "type": [
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "+1 a los niveles de habilidad del druida",
+            "+[75-100]% defensa perfeccionada",
+            "[40-60] maná",
+            "+20% velocidad de lanzamiento mayor",
+            "todas las resistencias +20%",
+            "10 a todos los atributos"
+        ]
+    },
+    {
+        "name": "Amistad",
+        "english": "Amity",
+        "level": "15",
+        "sockets": "2",
+        "runes": [
+            "Hel",
+            "Amn"
+        ],
+        "type": [
+            "Mazas"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 5",
+            "-3% a la experiencia obtenida",
+            "mata a los monstruos",
+            "+133% daño perfeccionado",
+            "Añade 25-50 de daño",
+            "+66% golpe triturador",
+            "+34% posibilidad de azote mortal"
+        ]
+    },
+    {
+        "name": "Casualidad",
+        "english": "Chance",
+        "level": "15",
+        "sockets": "3",
+        "runes": [
+            "Eth",
+            "Ith",
+            "Tir"
+        ],
+        "type": [
+            "Todo tipo de escudos"
+        ],
+        "stats": [
+            "+15% posiblidad de bloqueo mayor",
+            "+20% velocidad de bloqueo mayor",
+            "25 maná",
+            "+15% velocidad de lanzamiento mayor",
+            "+[20-30]% mas posibilidades de conseguir un objeto mágico",
+            "75% oro extra de los monstruos"
+        ]
+    },
+    {
+        "name": "Hambre",
+        "english": "Hunger",
+        "level": "15",
+        "sockets": "2",
+        "runes": [
+            "Amn",
+            "Hel"
+        ],
+        "type": [
+            "Todo tipo de escudos"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 8",
+            "+[15-30]% posiblidad de bloqueo mayor",
+            "daño reducido en [10-15]%",
+            "todas las resistencias +20%",
+            "resistencia a la magia +20%",
+            "5% vida robada por impacto",
+            "repostar vida -1"
+        ]
+    },
+    {
+        "name": "Paz",
+        "english": "Peace",
+        "level": "15",
+        "sockets": "3",
+        "runes": [
+            "Tir",
+            "Eth",
+            "El"
+        ],
+        "type": [
+            "Armas de melé"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 6",
+            "Añade 20-40 de daño",
+            "20% velocidad de ataque aumentada",
+            "20% a la experiencia obtenida",
+            "+20% velocidad de bloqueo mayor",
+            "Halo de invisibilidad",
+            "todas las resistencias +15%"
+        ]
+    },
+    {
+        "name": "Penitencia",
+        "english": "Penitence",
+        "level": "15",
+        "sockets": "2",
+        "runes": [
+            "Ith",
+            "Tir"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+15% velocidad de bloqueo mayor",
+            "15% recuperacion de impacto mas rápida",
+            "Repara 1 de durabilidad cada 10 segundos",
+            "Mitad de duración del congelamiento",
+            "Duración del veneno reducida en un 50%"
+        ]
+    },
+    {
+        "name": "Sigilo",
+        "english": "Stealth",
+        "level": "17",
+        "sockets": "2",
+        "runes": [
+            "Tal",
+            "Eth"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "daño de magia reducido en 3",
+            "+6 destreza",
+            "+15 de resistencia máxima",
+            "+25% recuperación de impacto más rápida",
+            "+25% velocidad de lanzamiento mayor",
+            "25% recuperacion de impacto mas rápida"
+        ]
+    },
+    {
+        "name": "Aguijón",
+        "english": "Sting",
+        "level": "17",
+        "sockets": "3",
+        "runes": [
+            "Nef",
+            "Tal",
+            "Eth"
+        ],
+        "type": [
+            "Armas a distancia"
+        ],
+        "stats": [
+            "+[25-40] al daño maximo",
+            "15% velocidad de ataque aumentada",
+            "+[5-8]% mana robado por impacto",
+            "+3 para Disparo múltiple",
+            "+5 para Flecha de hielo"
+        ]
+    },
+    {
+        "name": "Filo",
+        "english": "Edge",
+        "level": "17",
+        "sockets": "3",
+        "runes": [
+            "Tir",
+            "Tal",
+            "Amn"
+        ],
+        "type": [
+            "Armas a distancia"
+        ],
+        "stats": [
+            "Nivel 15 aura Espinas cuando esta equipado",
+            "35% velocidad de ataque aumentada",
+            "+[320-380]% daño a los demonios",
+            "+280% daño a los muertos vivientes",
+            "evita la curacion del monstruo",
+            "Reduce todos los precios de los vendedores 15%",
+            "[8-9] a todos los atributos"
+        ]
+    },
+    {
+        "name": "Celos",
+        "english": "Jealousy",
+        "level": "17",
+        "sockets": "2",
+        "runes": [
+            "Tal",
+            "Eld"
+        ],
+        "type": [
+            "Lanzas"
+        ],
+        "stats": [
+            "+122% daño perfeccionado",
+            "7% vida robada por impacto",
+            "+7% mana robado por impacto",
+            "+3 para Estocada",
+            "+3 para Dominio de la lanza",
+            "20% velocidad de ataque aumentada"
+        ]
+    },
+    {
+        "name": "Hoja",
+        "english": "Leaf",
+        "level": "19",
+        "sockets": "2",
+        "runes": [
+            "Tir",
+            "Ral"
+        ],
+        "type": [
+            "Bastones"
+        ],
+        "stats": [
+            "+3 a las habilidades de fuego",
+            "+[2-254] defensa (2.0 por nivel)",
+            "resistencia al frio +33%",
+            "+3 para Infierno (solo hechicera)",
+            "+3 para Saeta de fuego (solo hechicera)",
+            "+3 para Calor (solo hechicera)"
+        ]
+    },
+    {
+        "name": "Pasión",
+        "english": "Patience",
+        "level": "19",
+        "sockets": "3",
+        "runes": [
+            "Nef",
+            "Eld",
+            "Ral"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armas",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "20% a la experiencia obtenida",
+            "[1-3]% a la experiencia obtenida",
+            "[20-25] vida",
+            "+[3-5] vida tras cada muerte",
+            "+2 mana tras cada muerte",
+            "+15% correr/andar mas rapido"
+        ]
+    },
+    {
+        "name": "Promesa de los ancianos",
+        "english": "Ancient's Pledge",
+        "level": "21",
+        "sockets": "3",
+        "runes": [
+            "Ral",
+            "Ort",
+            "Tal"
+        ],
+        "type": [
+            "Todo tipo de escudos"
+        ],
+        "stats": [
+            "resistencia al frio +30%",
+            "todas las resistencias +13%",
+            "+50% defensa perfeccionada",
+            "10% del daño infligido repercute en el maná"
+        ]
+    },
+    {
+        "name": "Trueno sagrado",
+        "english": "Holy Thunder",
+        "level": "21",
+        "sockets": "4",
+        "runes": [
+            "Eth",
+            "Ral",
+            "Ort",
+            "Tal"
+        ],
+        "type": [
+            "Cetros"
+        ],
+        "stats": [
+            "+60% daño perfeccionado",
+            "añade [20-60] daño de rayo",
+            "+10 al daño maximo",
+            "resistencia al rayo +60%",
+            "5% a la resistencia maxima al rayo",
+            "+3 para Rayo sagrado (solo paladín)",
+            "Nivel 7 Cadena de relampagos (60 Cargas)"
+        ]
+    },
+    {
+        "name": "Céfiro",
+        "english": "Zephyr",
+        "level": "21",
+        "sockets": "2",
+        "runes": [
+            "Ort",
+            "Eth"
+        ],
+        "type": [
+            "Armas a distancia"
+        ],
+        "stats": [
+            "+25% recuperación de impacto más rápida",
+            "25% velocidad de ataque aumentada",
+            "+33% daño perfeccionado",
+            "+66 puntuación de ataque",
+            "7% posibilidad de lanzar el nivel 1 Tornado al recibir un golpe",
+            "+25 defensa"
+        ]
+    },
+    {
+        "name": "Tentación",
+        "english": "Temptation",
+        "level": "21",
+        "sockets": "3",
+        "runes": [
+            "Ort",
+            "Nef",
+            "El"
+        ],
+        "type": [
+            "Mazas"
+        ],
+        "stats": [
+            "[10-15]% a la experiencia obtenida",
+            "+176% daño perfeccionado",
+            "+1 a todas las habilidades",
+            "-10 a todos los atributos",
+            "20% velocidad de ataque aumentada"
+        ]
+    },
+    {
+        "name": "Rayo",
+        "english": "Lightning",
+        "level": "21",
+        "sockets": "3",
+        "runes": [
+            "Ort",
+            "Ort",
+            "Amn"
+        ],
+        "type": [
+            "Todo tipo de armas"
+        ],
+        "stats": [
+            "resistencia al rayo +[35-50]%",
+            "+[100-175]% daño perfeccionado",
+            "20% velocidad de ataque aumentada",
+            "15% posibilidad de lanzar el nivel 9 Relampago al azotar",
+            "Nivel 2 aura Rayo sagrado cuando esta equipado",
+            "+[8-10] absorcion de relampagos"
+        ]
+    },
+    {
+        "name": "Juventud",
+        "english": "Youth",
+        "level": "21",
+        "sockets": "2",
+        "runes": [
+            "Ort",
+            "Eth"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "resistencia al fuego +[30-35]%",
+            "resistencia al frio +[30-35]%",
+            "resistencia al veneno +[30-35]%",
+            "+[90-120]% defensa perfeccionada",
+            "repostar vida [8-10]",
+            "regenerar maná 85%",
+            "9% posibilidad de lanzar el nivel 4 Debilitar al azotar"
+        ]
+    },
+    {
+        "name": "Gracia del rey",
+        "english": "King's Grace",
+        "level": "23",
+        "sockets": "3",
+        "runes": [
+            "Amn",
+            "Ral",
+            "Thul"
+        ],
+        "type": [
+            "Espadas",
+            "Cetros"
+        ],
+        "stats": [
+            "+100% daño perfeccionado",
+            "+150 puntuación de ataque",
+            "+100% daño a los demonios",
+            "+50% daño a los muertos vivientes",
+            "+100 puntuación de ataque a demonios",
+            "+100 puntuación de ataque a muertos vivientes"
+        ]
+    },
+    {
+        "name": "Espíritu",
+        "english": "Spirit",
+        "level": "23",
+        "sockets": "4",
+        "runes": [
+            "Tal",
+            "Thul",
+            "Ort",
+            "Amn"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Espadas"
+        ],
+        "stats": [
+            "+2 a todas las habilidades",
+            "+[25-35]% velocidad de lanzamiento mayor",
+            "55% recuperacion de impacto mas rápida",
+            "+22 vitalidad",
+            "[82-112] maná",
+            "+[3-8] absorcion de magia"
+        ]
+    },
+    {
+        "name": "Obsesión",
+        "english": "Obsession",
+        "level": "23",
+        "sockets": "2",
+        "runes": [
+            "Thul",
+            "El"
+        ],
+        "type": [
+            "Porras"
+        ],
+        "stats": [
+            "Añade 20-40 de daño",
+            "congela al objetivo",
+            "[4-6]% vida robada por impacto",
+            "100% oro extra de los monstruos",
+            "+40% mas posibilidades de conseguir un objeto mágico"
+        ]
+    },
+    {
+        "name": "Venganza",
+        "english": "Dweomer",
+        "level": "23",
+        "sockets": "2",
+        "runes": [
+            "Thul",
+            "Eld"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+1 a los niveles de habilidad de la hechicera",
+            "[50-75] maná",
+            "+15% velocidad de lanzamiento mayor",
+            "[1-3]% a la experiencia obtenida",
+            "regenerar maná [60-70]%",
+            "resistencia a la magia +[5-10]%",
+            "Aumenta los requisitos de nivel en 3"
+        ]
+    },
+    {
+        "name": "Oración",
+        "english": "Prayer",
+        "level": "23",
+        "sockets": "3",
+        "runes": [
+            "Hel",
+            "Eth",
+            "Thul"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armas",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "Añade 10-30 de daño",
+            "+[50-100] defensa",
+            "20% velocidad de ataque aumentada",
+            "Aumenta los requisitos de nivel en 7",
+            "+[20-30]% posiblidad de bloqueo mayor",
+            "Nivel [10-14] aura Plegaria cuando esta equipado",
+            "todas las resistencias +[15-25]%"
+        ]
+    },
+    {
+        "name": "Durbed",
+        "english": "Durbed",
+        "level": "25",
+        "sockets": "2",
+        "runes": [
+            "Can",
+            "Cap"
+        ],
+        "type": [
+            "Armas a distancia",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "+[200-300]% daño perfeccionado",
+            "+50% bonificacion en el ataque",
+            "Dispara flechas explosivas nivel {values}",
+            "+[2-4] para habilidades de Arco y ballesta (solo amazona)",
+            "Nivel 5 Revivir (30 Cargas)",
+            "+[2-190] daño máximo (1.5 por nivel)"
+        ]
+    },
+    {
+        "name": "Honor",
+        "english": "Honor",
+        "level": "27",
+        "sockets": "5",
+        "runes": [
+            "Amn",
+            "El",
+            "Ith",
+            "Tir",
+            "Sol"
+        ],
+        "type": [
+            "Armas de melé"
+        ],
+        "stats": [
+            "+160% daño perfeccionado",
+            "repostar vida 10",
+            "+1 a todas las habilidades",
+            "+200 puntuación de ataque",
+            "+25% posibilidad de azote mortal",
+            "+10 fuerza"
+        ]
+    },
+    {
+        "name": "Popular",
+        "english": "Lore",
+        "level": "27",
+        "sockets": "2",
+        "runes": [
+            "Ort",
+            "Sol"
+        ],
+        "type": [
+            "Cascos"
+        ],
+        "stats": [
+            "+10 energía",
+            "+1 a todas las habilidades",
+            "2 al radio de luz",
+            "+2 mana tras cada muerte"
+        ]
+    },
+    {
+        "name": "Resplandor",
+        "english": "Radiance",
+        "level": "27",
+        "sockets": "3",
+        "runes": [
+            "Nef",
+            "Sol",
+            "Ith"
+        ],
+        "type": [
+            "Cascos"
+        ],
+        "stats": [
+            "5 al radio de luz",
+            "+10 energía",
+            "+10 vitalidad",
+            "daño de magia reducido en 3",
+            "33 maná",
+            "+75% defensa perfeccionada"
+        ]
+    },
+    {
+        "name": "Perspicacia",
+        "english": "Insight",
+        "level": "27",
+        "sockets": "4",
+        "runes": [
+            "Ral",
+            "Tir",
+            "Tal",
+            "Sol"
+        ],
+        "type": [
+            "Bastones",
+            "Brazos de guerra"
+        ],
+        "stats": [
+            "Nivel [12-17] aura Meditación cuando esta equipado",
+            "+35% velocidad de lanzamiento mayor",
+            "+[200-260]% daño perfeccionado",
+            "+[180-250]% bonificacion en el ataque",
+            "+[1-6] para Azote crítico",
+            "5 a todos los atributos",
+            "+23% mas posibilidades de conseguir un objeto mágico"
+        ]
+    },
+    {
+        "name": "Sed",
+        "english": "Thirst",
+        "level": "27",
+        "sockets": "3",
+        "runes": [
+            "Sol",
+            "Thul",
+            "Ral"
+        ],
+        "type": [
+            "Lanzas"
+        ],
+        "stats": [
+            "+1 a todas las habilidades",
+            "+[125-150]% daño perfeccionado",
+            "[1-3]% a la experiencia obtenida",
+            "+[8-12] vida tras cada muerte",
+            "+[2-5] mana tras cada muerte",
+            "+[2-190] daño máximo (1.5 por nivel)"
+        ]
+    },
+    {
+        "name": "Verdad",
+        "english": "Truth",
+        "level": "27",
+        "sockets": "2",
+        "runes": [
+            "Sol",
+            "Ith"
+        ],
+        "type": [
+            "Orbes"
+        ],
+        "stats": [
+            "+100% daño perfeccionado",
+            "+1 a los niveles de habilidad de la hechicera",
+            "35 maná",
+            "regenerar maná 75%",
+            "+25% velocidad de lanzamiento mayor"
+        ]
+    },
+    {
+        "name": "Vacio",
+        "english": "Void",
+        "level": "27",
+        "sockets": "2",
+        "runes": [
+            "Sol",
+            "Amn"
+        ],
+        "type": [
+            "Cascos de Barbaro"
+        ],
+        "stats": [
+            "+1 a los niveles de habilidad del barbaro",
+            "+[10-15] al daño maximo",
+            "50 vida",
+            "25% recuperacion de impacto mas rápida",
+            "+25% recuperación de impacto más rápida",
+            "[3-6]% vida robada por impacto",
+            "+[3-6]% mana robado por impacto"
+        ]
+    },
+    {
+        "name": "Rima",
+        "english": "Rhyme",
+        "level": "29",
+        "sockets": "2",
+        "runes": [
+            "Shael",
+            "Eth"
+        ],
+        "type": [
+            "Todo tipo de escudos"
+        ],
+        "stats": [
+            "+20% velocidad de bloqueo mayor",
+            "+20% posiblidad de bloqueo mayor",
+            "todas las resistencias +25%",
+            "no puede congelarse",
+            "50% oro extra de los monstruos",
+            "+25% mas posibilidades de conseguir un objeto mágico"
+        ]
+    },
+    {
+        "name": "Tristeza",
+        "english": "Sorrow",
+        "level": "29",
+        "sockets": "2",
+        "runes": [
+            "Shael",
+            "Hel"
+        ],
+        "type": [
+            "Martillos"
+        ],
+        "stats": [
+            "+[160-200]% daño perfeccionado",
+            "20% velocidad de ataque aumentada",
+            "+6% mana robado por impacto",
+            "Nivel 20 Golem de barro (5 Cargas)",
+            "+[6-9] vida tras cada muerte",
+            "regenerar maná 50%",
+            "repostar vida -2"
+        ]
+    },
+    {
+        "name": "Susurro",
+        "english": "Whisper",
+        "level": "29",
+        "sockets": "3",
+        "runes": [
+            "Shael",
+            "Shael",
+            "Shael"
+        ],
+        "type": [
+            "Todo tipo de armas"
+        ],
+        "stats": [
+            "Añade 25-75 de daño",
+            "+100% daño perfeccionado",
+            "repostar vida 6",
+            "-15% defensa del objetivo",
+            "requisitos -25%"
+        ]
+    },
+    {
+        "name": "Belleza",
+        "english": "Beauty",
+        "level": "31",
+        "sockets": "2",
+        "runes": [
+            "Tir",
+            "Dol"
+        ],
+        "type": [
+            "Arcos de amazona"
+        ],
+        "stats": [
+            "+3 para habilidades de Arco y ballesta (solo amazona)",
+            "Añade 30-60 de daño",
+            "el objetivo retrocede",
+            "Ralentiza al Objetivo un 15%",
+            "8% vida robada por impacto",
+            "ignorar defensa del objetivo",
+            "50% posibilidad de heridas abiertas"
+        ]
+    },
+    {
+        "name": "Terror",
+        "english": "Dread",
+        "level": "31",
+        "sockets": "3",
+        "runes": [
+            "Dol",
+            "El",
+            "Ith"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+[100-125]% defensa perfeccionada",
+            "13% posibilidad de lanzar el nivel 13 Saeta cargada al azotar",
+            "+20% recuperación de impacto más rápida",
+            "+[6-8] vida tras cada muerte",
+            "Aumenta los requisitos de nivel en 1",
+            "+[0-64] de fuerza (segun nivel del personaje)",
+            "+[0-64] destreza (0.5 por nivel)"
+        ]
+    },
+    {
+        "name": "Voluntad del cielo",
+        "english": "Heaven's Will",
+        "level": "31",
+        "sockets": "2",
+        "runes": [
+            "Dol",
+            "Eld"
+        ],
+        "type": [
+            "Escudos de paladín"
+        ],
+        "stats": [
+            "+1 a los niveles de habilidad del paladin",
+            "+50% posiblidad de bloqueo mayor",
+            "+30% velocidad de bloqueo mayor",
+            "+[30-50]% daño perfeccionado",
+            "mata a los monstruos",
+            "+6 para Puño de los cielos (solo paladín)"
+        ]
+    },
+    {
+        "name": "Castigo",
+        "english": "Punishment",
+        "level": "31",
+        "sockets": "3",
+        "runes": [
+            "Ort",
+            "Dol",
+            "Amn"
+        ],
+        "type": [
+            "Espadas"
+        ],
+        "stats": [
+            "+135% daño perfeccionado",
+            "Añade 20-40 de daño",
+            "repostar vida -3",
+            "-2% a la experiencia obtenida",
+            "20 a todos los atributos",
+            "100% de posibilidades de lanzar el nivel 35 de Tormenta atronadora al subir de nivel",
+            "daño reducido en [15-20]"
+        ]
+    },
+    {
+        "name": "Venganza",
+        "english": "Vengeance",
+        "level": "31",
+        "sockets": "2",
+        "runes": [
+            "Dol",
+            "Nef"
+        ],
+        "type": [
+            "Armas de asesina"
+        ],
+        "stats": [
+            "Añade 35-70 de daño",
+            "100% de posibilidades de lanzar el nivel 55 de Nova de veneno al morir",
+            "6% vida robada por impacto",
+            "40 vida",
+            "10 a todos los atributos",
+            "+1 a los niveles de habilidad de la asesina"
+        ]
+    },
+    {
+        "name": "Carna",
+        "english": "Carna",
+        "level": "31",
+        "sockets": "2",
+        "runes": [
+            "Es",
+            "Or"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "Nivel [11-15] aura Convicción cuando esta equipado",
+            "25% posibilidad de lanzar el nivel 30 Cadena de relampagos cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el frio en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Venenus",
+        "english": "Venenus",
+        "level": "33",
+        "sockets": "2",
+        "runes": [
+            "Sco",
+            "Noa"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "+25% velocidad de lanzamiento mayor",
+            "regenerar maná 20%",
+            "+25% a todas las resistencias máximas",
+            "Duración del veneno reducida en un 55%",
+            "10 daño de veneno durante 5 segundos",
+            "-55% a la resistencia del enemigo al veneno",
+            "+2 a los niveles de habilidad del nigromante"
+        ]
+    },
+    {
+        "name": "Negro",
+        "english": "Black",
+        "level": "35",
+        "sockets": "3",
+        "runes": [
+            "Thul",
+            "Io",
+            "Nef"
+        ],
+        "type": [
+            "Porras",
+            "Martillos",
+            "Mazas"
+        ],
+        "stats": [
+            "+40% golpe triturador",
+            "+120% daño perfeccionado",
+            "15% velocidad de ataque aumentada",
+            "daño de magia reducido en 2",
+            "+200 puntuación de ataque",
+            "Nivel 4 Explosión de cadaveres (12 Cargas)"
+        ]
+    },
+    {
+        "name": "Blanco",
+        "english": "White",
+        "level": "35",
+        "sockets": "2",
+        "runes": [
+            "Dol",
+            "Io"
+        ],
+        "type": [
+            "Varas"
+        ],
+        "stats": [
+            "+3 para habilidades de Veneno y hueso (solo nigromante)",
+            "daño de magia reducido en 4",
+            "+20% velocidad de lanzamiento mayor",
+            "13 maná",
+            "+3 para Escudo de huesos (solo nigromante)",
+            "+2 para Lanza de hueso (solo nigromante)",
+            "+4 para Dominio de esqueletos (solo nigromante)"
+        ]
+    },
+    {
+        "name": "Odio",
+        "english": "Hatred",
+        "level": "35",
+        "sockets": "2",
+        "runes": [
+            "Io",
+            "Thul"
+        ],
+        "type": [
+            "Todo tipo de armas"
+        ],
+        "stats": [
+            "+[140-190]% daño perfeccionado",
+            "+1 a todas las habilidades",
+            "+50% mas posibilidades de conseguir un objeto mágico",
+            "el objetivo retrocede",
+            "congela al objetivo",
+            "+[1-500]% daño a los demonios (aumenta cuando se acerca el día)"
+        ]
+    },
+    {
+        "name": "Lágrimas sagradas",
+        "english": "Holy Tears",
+        "level": "35",
+        "sockets": "3",
+        "runes": [
+            "Io",
+            "Tir",
+            "Shael"
+        ],
+        "type": [
+            "Cetros"
+        ],
+        "stats": [
+            "+[160-200]% daño perfeccionado",
+            "16% posibilidad de lanzar el nivel 9 Puño de los cielos al azotar",
+            "+300% daño a los demonios",
+            "+35% bonificacion en el ataque",
+            "Ralentiza al Objetivo un 35%",
+            "+5 para Ahínco",
+            "20% velocidad de ataque aumentada"
+        ]
+    },
+    {
+        "name": "Locura",
+        "english": "Madness",
+        "level": "35",
+        "sockets": "3",
+        "runes": [
+            "Io",
+            "Eth",
+            "Dol"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "9% posibilidad de lanzar el nivel 5 Confusión al recibir un golpe",
+            "12% posibilidad de lanzar el nivel 16 Terror al azotar",
+            "15% velocidad de ataque aumentada",
+            "Aumenta los requisitos de nivel en 1",
+            "+1 a todas las habilidades",
+            "+15% velocidad de bloqueo mayor",
+            "[35-50] vida"
+        ]
+    },
+    {
+        "name": "Rojo",
+        "english": "Red",
+        "level": "35",
+        "sockets": "4",
+        "runes": [
+            "Io",
+            "Ral",
+            "Ral",
+            "Hel"
+        ],
+        "type": [
+            "Armas de melé"
+        ],
+        "stats": [
+            "+155% daño perfeccionado",
+            "Repara 1 de durabilidad cada 5 segundos",
+            "resistencia al fuego +[35-50]%",
+            "Absorbe el fuego en 10%",
+            "resistencia al frio +-20%",
+            "+[15-25]% daño a habilidades de fuego",
+            "8% posibilidad de lanzar el nivel 4 Meteoro al azotar"
+        ]
+    },
+    {
+        "name": "Guerra",
+        "english": "War",
+        "level": "35",
+        "sockets": "2",
+        "runes": [
+            "Io",
+            "Hel"
+        ],
+        "type": [
+            "Cascos"
+        ],
+        "stats": [
+            "+[100-140]% defensa perfeccionada",
+            "+[35-50]% daño perfeccionado",
+            "30% velocidad de ataque aumentada",
+            "daño reducido en [20-25]%",
+            "ignorar defensa del objetivo",
+            "evita la curacion del monstruo",
+            "25% recuperacion de impacto mas rápida"
+        ]
+    },
+    {
+        "name": "Memoria",
+        "english": "Memory",
+        "level": "37",
+        "sockets": "4",
+        "runes": [
+            "Lum",
+            "Io",
+            "Sol",
+            "Eth"
+        ],
+        "type": [
+            "Bastones"
+        ],
+        "stats": [
+            "aumenta el maná maximo 20%",
+            "daño de magia reducido en 7",
+            "+50% defensa perfeccionada",
+            "+33% velocidad de lanzamiento mayor",
+            "+3 a los niveles de habilidad de la hechicera",
+            "+3 para Escudo de energía (solo hechicera)",
+            "+2 para Campo estático (solo hechicera)"
+        ]
+    },
+    {
+        "name": "Humo",
+        "english": "Smoke",
+        "level": "37",
+        "sockets": "2",
+        "runes": [
+            "Nef",
+            "Lum"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+250 defensa contra misiles",
+            "+75% defensa perfeccionada",
+            "todas las resistencias +50%",
+            "20% recuperacion de impacto mas rápida",
+            "-1 al radio de luz",
+            "Nivel 6 Debilitar (18 Cargas)"
+        ]
+    },
+    {
+        "name": "Esplendor",
+        "english": "Splendor",
+        "level": "37",
+        "sockets": "2",
+        "runes": [
+            "Eth",
+            "Lum"
+        ],
+        "type": [
+            "Todo tipo de escudos"
+        ],
+        "stats": [
+            "+1 a todas las habilidades",
+            "+10% velocidad de lanzamiento mayor",
+            "+20% velocidad de bloqueo mayor",
+            "+[60-100]% defensa perfeccionada",
+            "50% oro extra de los monstruos",
+            "+20% mas posibilidades de conseguir un objeto mágico",
+            "3 al radio de luz"
+        ]
+    },
+    {
+        "name": "Engaño",
+        "english": "Deception",
+        "level": "37",
+        "sockets": "3",
+        "runes": [
+            "Io",
+            "Dol",
+            "Lum"
+        ],
+        "type": [
+            "Brazos de guerra"
+        ],
+        "stats": [
+            "+[165-205]% daño perfeccionado",
+            "8% vida robada por impacto",
+            "+1 para Teletransporte",
+            "40% recuperacion de impacto mas rápida",
+            "+[1-127] daño máximo (1.0 por nivel)",
+            "+15% daño a habilidades de fuego",
+            "Nivel 18 Meteoro (150 Cargas)"
+        ]
+    },
+    {
+        "name": "Melodía",
+        "english": "Melody",
+        "level": "39",
+        "sockets": "3",
+        "runes": [
+            "Shael",
+            "Ko",
+            "Nef"
+        ],
+        "type": [
+            "Armas a distancia"
+        ],
+        "stats": [
+            "+50% daño perfeccionado",
+            "+3 para habilidades de Arco y ballesta (solo amazona)",
+            "+3 para Azote crítico (solo amazona)",
+            "+3 para Esquivar (solo amazona)",
+            "+3 para Misiles lentos (solo amazona)",
+            "+300% daño a los muertos vivientes"
+        ]
+    },
+    {
+        "name": "Armonía",
+        "english": "Harmony",
+        "level": "39",
+        "sockets": "4",
+        "runes": [
+            "Tir",
+            "Ith",
+            "Sol",
+            "Ko"
+        ],
+        "type": [
+            "Armas a distancia"
+        ],
+        "stats": [
+            "Nivel 10 aura Vigor cuando esta equipado",
+            "+[200-275]% daño perfeccionado",
+            "añade [55-160] daño de fuego",
+            "añade [55-160] daño de frio",
+            "+[2-6] para Valquiria",
+            "regenerar maná 20%",
+            "Nivel 20 Revivir (25 Cargas)"
+        ]
+    },
+    {
+        "name": "Pestilencia",
+        "english": "Pestilence",
+        "level": "39",
+        "sockets": "3",
+        "runes": [
+            "Sol",
+            "Ko",
+            "Io"
+        ],
+        "type": [
+            "Hachas"
+        ],
+        "stats": [
+            "312 daño de veneno durante 5 segundos",
+            "evita la curacion del monstruo",
+            "+[20-35]% mas posibilidades de conseguir un objeto mágico",
+            "+188% daño perfeccionado",
+            "+20% daño a habilidades de veneno",
+            "+3 para Explosión venenosa",
+            "Duración del veneno reducida en un 50%"
+        ]
+    },
+    {
+        "name": "Duda",
+        "english": "Question",
+        "level": "39",
+        "sockets": "2",
+        "runes": [
+            "Ko",
+            "Nef"
+        ],
+        "type": [
+            "Espadas"
+        ],
+        "stats": [
+            "+[2-190]% de Probabilidad de Encontrar Objetos Mágicos (1.5 por nivel)",
+            "+[2-254]% oro extra de los monstruos (2.0 por nivel)",
+            "+[1-95] de fuerza (segun nivel del personaje)",
+            "+[1-95] destreza (0.75 por nivel)",
+            "+[1-95] vitalidad (0.75 por nivel)",
+            "+[1-95] energía (0.75 por nivel)",
+            "+-10 destreza"
+        ]
+    },
+    {
+        "name": "Agua",
+        "english": "Water",
+        "level": "39",
+        "sockets": "3",
+        "runes": [
+            "Ko",
+            "Shael",
+            "Hel"
+        ],
+        "type": [
+            "Lanzas"
+        ],
+        "stats": [
+            "añade [33-122] daño de frio",
+            "regenerar maná 35%",
+            "repostar vida [3-5]",
+            "+175% daño perfeccionado",
+            "25% recuperacion de impacto mas rápida",
+            "100% de posibilidades de lanzar el nivel 25 de Órdenes de batalla al subir de nivel",
+            "resistencia al fuego +50%"
+        ]
+    },
+    {
+        "name": "Tameobrigo",
+        "english": "Tameobrigo",
+        "level": "39",
+        "sockets": "5",
+        "runes": [
+            "Shael",
+            "Ko",
+            "Nef",
+            "Beta",
+            "Sco"
+        ],
+        "type": [
+            "Armas a distancia",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "Nivel 5 aura Fanatismo cuando esta equipado",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "+[200-320]% daño perfeccionado",
+            "+[6-8]% mana robado por impacto",
+            "el objetivo retrocede",
+            "40% velocidad de ataque aumentada"
+        ]
+    },
+    {
+        "name": "Corazón de león",
+        "english": "Lionheart",
+        "level": "41",
+        "sockets": "3",
+        "runes": [
+            "Hel",
+            "Lum",
+            "Fal"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+15 fuerza",
+            "+20 vitalidad",
+            "+15 destreza",
+            "+20% daño perfeccionado",
+            "50 vida",
+            "todas las resistencias +30%"
+        ]
+    },
+    {
+        "name": "Obediencia",
+        "english": "Obedience",
+        "level": "41",
+        "sockets": "5",
+        "runes": [
+            "Hel",
+            "Ko",
+            "Thul",
+            "Eth",
+            "Fal"
+        ],
+        "type": [
+            "Brazos de guerra"
+        ],
+        "stats": [
+            "30% posibilidad de lanzar el nivel 21 Encantamiento cuando mates un enemigo",
+            "40% recuperacion de impacto mas rápida",
+            "+370% daño perfeccionado",
+            "-25% a la resistencia del enemigo al fuego",
+            "+40% golpe triturador",
+            "+[200-300] defensa",
+            "todas las resistencias +[20-30]%"
+        ]
+    },
+    {
+        "name": "Fortuna",
+        "english": "Fortune's Favor",
+        "level": "41",
+        "sockets": "2",
+        "runes": [
+            "Fal",
+            "Io"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armas",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+[2-254]% de Probabilidad de Encontrar Objetos Mágicos (2.0 por nivel)",
+            "+1 a todas las habilidades",
+            "[30-50] vida",
+            "todas las resistencias +10%",
+            "Aumenta los requisitos de nivel en 5",
+            "200% oro extra de los monstruos"
+        ]
+    },
+    {
+        "name": "Envidia",
+        "english": "Envy",
+        "level": "41",
+        "sockets": "4",
+        "runes": [
+            "Fal",
+            "Ko",
+            "Lum",
+            "Io"
+        ],
+        "type": [
+            "Todo tipo de armas"
+        ],
+        "stats": [
+            "+222% daño perfeccionado",
+            "30% velocidad de ataque aumentada",
+            "+6% mana robado por impacto",
+            "6% vida robada por impacto",
+            "2% a la experiencia obtenida",
+            "+35% mas posibilidades de conseguir un objeto mágico",
+            "todas las resistencias +25%"
+        ]
+    },
+    {
+        "name": "Principio",
+        "english": "Principle",
+        "level": "41",
+        "sockets": "4",
+        "runes": [
+            "Shael",
+            "Fal",
+            "Ko",
+            "Shael"
+        ],
+        "type": [
+            "Lanzas de amazona"
+        ],
+        "stats": [
+            "+[200-260]% daño perfeccionado",
+            "mata a los monstruos",
+            "2% a la experiencia obtenida",
+            "+2 a los niveles de habilidad de la amazona",
+            "todas las resistencias +35%",
+            "Nivel 20 Tormenta atronadora (10 Cargas)",
+            "Nivel 10 Armadura de ciclón (22 Cargas)"
+        ]
+    },
+    {
+        "name": "Lida",
+        "english": "Lida",
+        "level": "41",
+        "sockets": "2",
+        "runes": [
+            "Ar",
+            "Or"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "Nivel [11-20] aura Fanatismo cuando esta equipado",
+            "5% posibilidad de lanzar el nivel 30 Nova de escarcha cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el rayo en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Riqueza",
+        "english": "Wealth",
+        "level": "43",
+        "sockets": "3",
+        "runes": [
+            "Lem",
+            "Ko",
+            "Tir"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "250% oro extra de los monstruos",
+            "+100% mas posibilidades de conseguir un objeto mágico"
+        ]
+    },
+    {
+        "name": "Pasión",
+        "english": "Passion",
+        "level": "43",
+        "sockets": "4",
+        "runes": [
+            "Dol",
+            "Ort",
+            "Eld",
+            "Lem"
+        ],
+        "type": [
+            "Todo tipo de armas"
+        ],
+        "stats": [
+            "+[160-210]% daño perfeccionado",
+            "+1 para Ahínco",
+            "+[50-80]% bonificacion en el ataque",
+            "+1 para Frenético",
+            "25% velocidad de ataque aumentada",
+            "Nivel 3 Corazón lobezno (12 Cargas)",
+            "el impacto ciega al objetivo"
+        ]
+    },
+    {
+        "name": "Canto de sirena",
+        "english": "Siren's Song",
+        "level": "43",
+        "sockets": "2",
+        "runes": [
+            "Lem",
+            "Shael"
+        ],
+        "type": [
+            "Aros"
+        ],
+        "stats": [
+            "+2 a todas las habilidades",
+            "aumenta el maná maximo 40%",
+            "+25% velocidad de lanzamiento mayor",
+            "[10-20] a todos los atributos",
+            "+[30-50]% mas posibilidades de conseguir un objeto mágico",
+            "44% posibilidad de lanzar el nivel 3 Confusión al recibir un golpe",
+            "+[1-127] defensa (1.0 por nivel)"
+        ]
+    },
+    {
+        "name": "Tempestad",
+        "english": "Tempest",
+        "level": "43",
+        "sockets": "2",
+        "runes": [
+            "Lem",
+            "Thul"
+        ],
+        "type": [
+            "Armas de asesina"
+        ],
+        "stats": [
+            "añade [30-70] daño de frio",
+            "añade [100-200] daño de fuego",
+            "añade [1-300] daño de rayo",
+            "+[20-30]% daño a habilidades de rayo",
+            "+2 a los niveles de habilidad de la asesina",
+            "+3 para habilidades de Trampas (solo asesina)",
+            "+[140-190]% daño perfeccionado"
+        ]
+    },
+    {
+        "name": "Jurista",
+        "english": "Lawbringer",
+        "level": "43",
+        "sockets": "3",
+        "runes": [
+            "Amn",
+            "Lem",
+            "Ko"
+        ],
+        "type": [
+            "Martillos",
+            "Espadas",
+            "Cetros"
+        ],
+        "stats": [
+            "20% posibilidad de lanzar el nivel 15 Decrepitación al azotar",
+            "Nivel 18 aura Santuario cuando esta equipado",
+            "-50% defensa del objetivo",
+            "añade [150-220] daño de fuego",
+            "añade [130-180] daño de frio",
+            "mata a los monstruos",
+            "+[200-250] defensa contra misiles"
+        ]
+    },
+    {
+        "name": "Piedad",
+        "english": "Piety",
+        "level": "43",
+        "sockets": "3",
+        "runes": [
+            "Lem",
+            "Nef",
+            "Shael"
+        ],
+        "type": [
+            "Cascos"
+        ],
+        "stats": [
+            "+[90-125]% defensa perfeccionada",
+            "+20 energía",
+            "+[1-127] mana (1.0 por nivel)",
+            "+1 a todas las habilidades",
+            "+20% velocidad de lanzamiento mayor",
+            "todas las resistencias +[15-25]%",
+            "resistencia a la magia +[15-25]%"
+        ]
+    },
+    {
+        "name": "Voz de la razón",
+        "english": "Winter",
+        "level": "43",
+        "sockets": "4",
+        "runes": [
+            "Lem",
+            "Ko",
+            "El",
+            "Eld"
+        ],
+        "type": [
+            "Espadas",
+            "Mazas"
+        ],
+        "stats": [
+            "15% posibilidad de lanzar el nivel 13 Orbe helado al azotar",
+            "18% posibilidad de lanzar el nivel 20 Ráfaga de hielo al azotar",
+            "+[220-350]% daño a los demonios",
+            "+[280-300]% daño a los muertos vivientes",
+            "añade [100-220] daño de frio",
+            "-24% a la resistencia del enemigo al frio",
+            "no puede congelarse"
+        ]
+    },
+    {
+        "name": "Sombra",
+        "english": "Shadow",
+        "level": "45",
+        "sockets": "4",
+        "runes": [
+            "Pul",
+            "Sol",
+            "Shael",
+            "Sol"
+        ],
+        "type": [
+            "Armas a distancia"
+        ],
+        "stats": [
+            "+166% daño perfeccionado",
+            "+8 al daño máximo de frio (aumenta cuando se acerca el amanecer)",
+            "+50% correr/andar más rápido",
+            "25% posibilidad de lanzar el nivel 12 Capa de sombras al recibir un golpe",
+            "Nivel 10 Muro de huesos (50 Cargas)"
+        ]
+    },
+    {
+        "name": "Amor",
+        "english": "The Lovers",
+        "level": "45",
+        "sockets": "3",
+        "runes": [
+            "Pul",
+            "Hel",
+            "El"
+        ],
+        "type": [
+            "Arcos de amazona"
+        ],
+        "stats": [
+            "+2 a los niveles de habilidad de la amazona",
+            "75 vida",
+            "50 maná",
+            "+200% daño perfeccionado",
+            "40% velocidad de ataque aumentada",
+            "+30% posibilidad de azote mortal",
+            "Dispara flechas explosivas nivel {values}"
+        ]
+    },
+    {
+        "name": "Truenos",
+        "english": "Thunder",
+        "level": "45",
+        "sockets": "4",
+        "runes": [
+            "Pul",
+            "Lem",
+            "Ko",
+            "Fal"
+        ],
+        "type": [
+            "Armas de melé"
+        ],
+        "stats": [
+            "+235% daño perfeccionado",
+            "añade [1-444] daño de rayo",
+            "10% posibilidad de lanzar el nivel 22 Tormenta atronadora al recibir un golpe",
+            "resistencia al rayo +75%",
+            "resistencia al frio +-25%",
+            "+1 para Campo estático",
+            "2% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "luna creciente",
+        "english": "Crescent Moon",
+        "level": "47",
+        "sockets": "3",
+        "runes": [
+            "Shael",
+            "Um",
+            "Tir"
+        ],
+        "type": [
+            "Hachas",
+            "Espadas",
+            "Brazos de guerra"
+        ],
+        "stats": [
+            "-35% a la resistencia del enemigo al rayo",
+            "ignorar defensa del objetivo",
+            "+[180-220]% daño perfeccionado",
+            "+[9-11] absorcion de magia",
+            "Nivel 18 Corazón lobezno (30 Cargas)",
+            "7% posibilidad de lanzar el nivel 13 Campo estático al azotar",
+            "10% posibilidad de lanzar el nivel 17 Cadena de relampagos al azotar"
+        ]
+    },
+    {
+        "name": "Roca",
+        "english": "Stone",
+        "level": "47",
+        "sockets": "4",
+        "runes": [
+            "Shael",
+            "Um",
+            "Pul",
+            "Lum"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+[220-260]% defensa perfeccionada",
+            "Nivel 16 Golem de barro (16 Cargas)",
+            "+300 defensa contra misiles",
+            "Nivel 16 Roca líquida (80 Cargas)",
+            "+16 fuerza",
+            "+16 vitalidad",
+            "40% recuperacion de impacto mas rápida"
+        ]
+    },
+    {
+        "name": "Melancolía",
+        "english": "Gloom",
+        "level": "47",
+        "sockets": "3",
+        "runes": [
+            "Fal",
+            "Um",
+            "Pul"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+[170-230]% defensa perfeccionada",
+            "todas las resistencias +30%",
+            "15% posibilidad de lanzar el nivel 3 Visión borrosa al recibir un golpe",
+            "10% recuperacion de impacto mas rápida",
+            "5% del daño infligido repercute en el maná",
+            "-3 al radio de luz",
+            "Mitad de duración del congelamiento"
+        ]
+    },
+    {
+        "name": "Coacción",
+        "english": "Duress",
+        "level": "47",
+        "sockets": "3",
+        "runes": [
+            "Shael",
+            "Um",
+            "Thul"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "20% recuperacion de impacto mas rápida",
+            "+[10-20]% daño perfeccionado",
+            "añade [37-133] daño de frio",
+            "+15% golpe triturador",
+            "33% posibilidad de heridas abiertas",
+            "+[150-200]% defensa perfeccionada",
+            "+-20% drenaje de resistencias mas lento"
+        ]
+    },
+    {
+        "name": "Olvido",
+        "english": "Oblivion",
+        "level": "47",
+        "sockets": "3",
+        "runes": [
+            "Um",
+            "Fal",
+            "Ko"
+        ],
+        "type": [
+            "Cascos de Barbaro"
+        ],
+        "stats": [
+            "+2 a los niveles de habilidad del barbaro",
+            "+[115-160]% defensa perfeccionada",
+            "Habilidad aleatoria de bárbaro a nivel 3",
+            "12% posibilidad de lanzar el nivel 9 Daño aumentado al azotar",
+            "+[2-190] vida (1.5 por nivel)",
+            "20% velocidad de ataque aumentada",
+            "+[1-100]% golpe triturador (aumenta cuando se acerca el amanecer)"
+        ]
+    },
+    {
+        "name": "Ilustración",
+        "english": "Enlightenment",
+        "level": "47",
+        "sockets": "3",
+        "runes": [
+            "Tir",
+            "Um",
+            "Lum"
+        ],
+        "type": [
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "+2 a los niveles de habilidad del druida",
+            "Habilidad aleatoria de druida a nivel 3",
+            "regenerar maná 75%",
+            "+3 para habilidades de Elemental (solo druida)",
+            "30% posibilidad de lanzar el nivel 20 Armadura de ciclón al recibir un golpe",
+            "daño reducido en [20-25]%",
+            "+20% velocidad de bloqueo mayor"
+        ]
+    },
+    {
+        "name": "Sentencia",
+        "english": "Judgment",
+        "level": "47",
+        "sockets": "3",
+        "runes": [
+            "Um",
+            "Hel",
+            "Um"
+        ],
+        "type": [
+            "Escudos de paladín"
+        ],
+        "stats": [
+            "+2 a los niveles de habilidad del paladin",
+            "ignorar defensa del objetivo",
+            "+[25-35]% posiblidad de bloqueo mayor",
+            "+[20-30] al daño maximo",
+            "2% posibilidad de lanzar el nivel 35 Escudo sagrado al recibir un golpe",
+            "50% posibilidad de lanzar el nivel 5 Decrepitación al recibir un golpe",
+            "daño de magia reducido en [35-50]"
+        ]
+    },
+    {
+        "name": "Pilar de fe",
+        "english": "Pillar of Faith",
+        "level": "47",
+        "sockets": "4",
+        "runes": [
+            "Fal",
+            "Fal",
+            "Um",
+            "Amn"
+        ],
+        "type": [
+            "Lanzas"
+        ],
+        "stats": [
+            "+230% daño perfeccionado",
+            "Repara 1 de durabilidad cada 5 segundos",
+            "+[400-500] defensa",
+            "Nivel 12 aura Purificación cuando esta equipado",
+            "20% velocidad de ataque aumentada",
+            "75 vida",
+            "Absorbe el fuego en 15%"
+        ]
+    },
+    {
+        "name": "Voz",
+        "english": "Voice",
+        "level": "47",
+        "sockets": "4",
+        "runes": [
+            "Um",
+            "Ith",
+            "Amn",
+            "Hel"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 1",
+            "+[10-15]% daño a habilidades de frio",
+            "+[10-15]% daño a habilidades de fuego",
+            "+[10-15]% daño a habilidades de rayo",
+            "todas las resistencias +[7-10]%",
+            "El impacto hace que el monstruo huya 60%",
+            "+[1-127] mana (1.0 por nivel)"
+        ]
+    },
+    {
+        "name": "Calisto",
+        "english": "Calisto",
+        "level": "47",
+        "sockets": "2",
+        "runes": [
+            "Ge",
+            "Ma"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "+20% velocidad de lanzamiento mayor",
+            "25% Reanimarse como: Torre Helada",
+            "+[1-2] a los niveles de habilidad del nigromante",
+            "20% del daño infligido repercute en el maná",
+            "+[1-159] mana (1.25 por nivel)"
+        ]
+    },
+    {
+        "name": "Veneno",
+        "english": "Venom",
+        "level": "49",
+        "sockets": "3",
+        "runes": [
+            "Tal",
+            "Dol",
+            "Mal"
+        ],
+        "type": [
+            "Todo tipo de armas"
+        ],
+        "stats": [
+            "213 daño de veneno durante 5 segundos",
+            "ignorar defensa del objetivo",
+            "Nivel 15 Explosión venenosa (27 Cargas)",
+            "Nivel 13 Nova de veneno (11 Cargas)",
+            "+7% mana robado por impacto"
+        ]
+    },
+    {
+        "name": "Santuario",
+        "english": "Sanctuary",
+        "level": "49",
+        "sockets": "3",
+        "runes": [
+            "Ko",
+            "Ko",
+            "Mal"
+        ],
+        "type": [
+            "Todo tipo de escudos"
+        ],
+        "stats": [
+            "+20% posiblidad de bloqueo mayor",
+            "+20% velocidad de bloqueo mayor",
+            "+[130-160]% defensa perfeccionada",
+            "+250 defensa contra misiles",
+            "todas las resistencias +[50-70]%",
+            "20% recuperacion de impacto mas rápida",
+            "Nivel 12 Misiles lentos (60 Cargas)"
+        ]
+    },
+    {
+        "name": "Terror",
+        "english": "Terror",
+        "level": "49",
+        "sockets": "2",
+        "runes": [
+            "Lum",
+            "Mal"
+        ],
+        "type": [
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "100% posibilidad de lanzar el nivel 10 Terror al recibir un golpe",
+            "+2 a los niveles de habilidad del nigromante",
+            "Habilidad aleatoria de nigromante a nivel 3",
+            "+[2-190] defensa (1.5 por nivel)",
+            "+25% velocidad de lanzamiento mayor",
+            "+[1-127]% de Probabilidad de Encontrar Objetos Mágicos (1.0 por nivel)",
+            "+3 para Fanatismo"
+        ]
+    },
+    {
+        "name": "Juramento",
+        "english": "Oath",
+        "level": "49",
+        "sockets": "4",
+        "runes": [
+            "Shael",
+            "Pul",
+            "Mal",
+            "Lum"
+        ],
+        "type": [
+            "Hachas",
+            "Espadas",
+            "Mazas"
+        ],
+        "stats": [
+            "30% posibilidad de lanzar el nivel 20 Espíritu de hueso al azotar",
+            "indestructible",
+            "30% velocidad de ataque aumentada",
+            "+[210-340]% daño perfeccionado",
+            "+[10-15] absorcion de magia",
+            "Nivel 16 Corazón lobezno (20 Cargas)",
+            "Nivel 17 Golem de hierro (14 Cargas)"
+        ]
+    },
+    {
+        "name": "Sangre",
+        "english": "Blood",
+        "level": "49",
+        "sockets": "2",
+        "runes": [
+            "Mal",
+            "Shael"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armas",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 18",
+            "+[200-250]% daño perfeccionado",
+            "+[125-175] defensa",
+            "+2 a todas las habilidades",
+            "Aumenta la vida maxima [10-15]%",
+            "daño reducido en [10-15]%"
+        ]
+    },
+    {
+        "name": "Lujuria",
+        "english": "Lust",
+        "level": "49",
+        "sockets": "2",
+        "runes": [
+            "Shael",
+            "Mal"
+        ],
+        "type": [
+            "Varas"
+        ],
+        "stats": [
+            "+2 a los niveles de habilidad del nigromante",
+            "5% a la experiencia obtenida",
+            "aumenta el maná maximo 35%",
+            "todas las resistencias +[35-50]%",
+            "Nivel 8 aura Rayo sagrado cuando esta equipado",
+            "+40% mas posibilidades de conseguir un objeto mágico",
+            "Oro extra de los monstruos +[1-300]% (aumenta cuando se acerca el anochecer)"
+        ]
+    },
+    {
+        "name": "Prudencia",
+        "english": "Prudence",
+        "level": "49",
+        "sockets": "2",
+        "runes": [
+            "Mal",
+            "Tir"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "25% recuperacion de impacto mas rápida",
+            "+[140-170]% defensa perfeccionada",
+            "todas las resistencias +[25-35]%",
+            "daño reducido en 3",
+            "daño de magia reducido en 10",
+            "1 al radio de luz",
+            "Repara 1 de durabilidad cada 4 segundos"
+        ]
+    },
+    {
+        "name": "Plasma",
+        "english": "Plasma",
+        "level": "49",
+        "sockets": "3",
+        "runes": [
+            "Leo",
+            "Mal",
+            "Es"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "+2 para Teletransporte",
+            "+30% velocidad de lanzamiento mayor",
+            "Repara 1 de durabilidad cada 50 segundos",
+            "+[3-333] defensa (2.62 por nivel)",
+            "+[50-100]% más posibilidades de conseguir un objeto mágico (aumenta cuando se acerca la noche)",
+            "Resistencia al rayo +[20-30]% (aumenta cuando se acerca el día)",
+            "+2 a los niveles de habilidad del nigromante"
+        ]
+    },
+    {
+        "name": "Delirio",
+        "english": "Delirium",
+        "level": "51",
+        "sockets": "3",
+        "runes": [
+            "Lem",
+            "Ist",
+            "Io"
+        ],
+        "type": [
+            "Cascos"
+        ],
+        "stats": [
+            "11% posibilidad de lanzar el nivel 18 Confusión al azotar",
+            "Nivel 17 Atracción (60 Cargas)",
+            "14% posibilidad de lanzar el nivel 13 Terror al recibir un golpe",
+            "+261 defensa",
+            "6% posibilidad de lanzar el nivel 14 Rafaga de mente al recibir un golpe",
+            "1% posibilidad de lanzar el nivel 50 Delirio al recibir un golpe",
+            "+2 a todas las habilidades"
+        ]
+    },
+    {
+        "name": "Gloria",
+        "english": "Glory",
+        "level": "51",
+        "sockets": "4",
+        "runes": [
+            "Ist",
+            "Ist",
+            "Ist",
+            "Ist"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+2 a todas las habilidades",
+            "25% recuperacion de impacto mas rápida",
+            "+35% velocidad de lanzamiento mayor",
+            "aumenta el maná maximo 25%",
+            "Aumenta la vida maxima 25%",
+            "+[75-125]% defensa perfeccionada",
+            "requisitos -30%"
+        ]
+    },
+    {
+        "name": "Pensamiento",
+        "english": "Thought",
+        "level": "51",
+        "sockets": "3",
+        "runes": [
+            "Tir",
+            "Lum",
+            "Ist"
+        ],
+        "type": [
+            "Orbes"
+        ],
+        "stats": [
+            "+2 a los niveles de habilidad de la hechicera",
+            "repostar vida 6",
+            "regenerar maná 75%",
+            "-20% a la resistencia del enemigo al rayo",
+            "+20% daño a habilidades de frio",
+            "+15% posiblidad de bloqueo mayor",
+            "20% recuperacion de impacto mas rápida"
+        ]
+    },
+    {
+        "name": "Cirene",
+        "english": "Cirene",
+        "level": "51",
+        "sockets": "2",
+        "runes": [
+            "Mis",
+            "Oma"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "12 a todos los atributos",
+            "25% Reanimarse como: Gigantus",
+            "+[1-2] a los niveles de habilidad del nigromante",
+            "20% del daño infligido repercute en el maná",
+            "+[1-159] mana (1.25 por nivel)",
+            "+[0-64] vida (0.5 por nivel)"
+        ]
+    },
+    {
+        "name": "Asesino real",
+        "english": "Kingslayer",
+        "level": "53",
+        "sockets": "4",
+        "runes": [
+            "Mal",
+            "Um",
+            "Gul",
+            "Fal"
+        ],
+        "type": [
+            "Hachas",
+            "Espadas"
+        ],
+        "stats": [
+            "30% velocidad de ataque aumentada",
+            "+[230-270]% daño perfeccionado",
+            "-25% defensa del objetivo",
+            "+33% golpe triturador",
+            "25% posibilidad de heridas abiertas",
+            "+1 para Venganza",
+            "40% oro extra de los monstruos"
+        ]
+    },
+    {
+        "name": "Aguas tranquilas",
+        "english": "Still Water",
+        "level": "53",
+        "sockets": "4",
+        "runes": [
+            "Gul",
+            "Um",
+            "Mal",
+            "Nef"
+        ],
+        "type": [
+            "Arcos de amazona"
+        ],
+        "stats": [
+            "+1 a los niveles de habilidad de la amazona",
+            "20% velocidad de ataque aumentada",
+            "Añade 30-127 de daño",
+            "+[80-120]% daño perfeccionado",
+            "+2 para habilidades de Arco y ballesta (solo amazona)",
+            "+[15-20] vida tras cada muerte",
+            "añade [100-150] daño de frio"
+        ]
+    },
+    {
+        "name": "Desesperación",
+        "english": "Despair",
+        "level": "53",
+        "sockets": "5",
+        "runes": [
+            "Gul",
+            "Mal",
+            "Shael",
+            "Shael",
+            "El"
+        ],
+        "type": [
+            "Lanzas"
+        ],
+        "stats": [
+            "+[260-300]% daño perfeccionado",
+            "32% posibilidad de lanzar el nivel 6 Debilitar al azotar",
+            "Ralentiza al Objetivo un 20%",
+            "+7 para Repeler",
+            "+35% mas posibilidades de conseguir un objeto mágico",
+            "+9% mana robado por impacto"
+        ]
+    },
+    {
+        "name": "Grieta",
+        "english": "Rift",
+        "level": "53",
+        "sockets": "4",
+        "runes": [
+            "Hel",
+            "Ko",
+            "Lem",
+            "Gul"
+        ],
+        "type": [
+            "Cetros",
+            "Brazos de guerra"
+        ],
+        "stats": [
+            "20% posibilidad de lanzar el nivel 16 Tornado al azotar",
+            "16% posibilidad de lanzar el nivel 21 Orbe helado al atacar",
+            "añade [160-250] al daño de magia",
+            "añade [60-180] daño de fuego",
+            "[5-10] a todos los atributos",
+            "38% del daño infligido repercute en el maná",
+            "Nivel 15 Doncella de hierro (40 Cargas)"
+        ]
+    },
+    {
+        "name": "Umbral",
+        "english": "Umbral",
+        "level": "53",
+        "sockets": "3",
+        "runes": [
+            "Ar",
+            "Ag",
+            "Or"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "+[2-3] a los niveles de habilidad del nigromante",
+            "+1 a todas las habilidades",
+            "Nivel [11-15] aura Meditación cuando esta equipado",
+            "+2 para Teletransporte",
+            "+[200-255]% defensa perfeccionada",
+            "evita la curacion del monstruo",
+            "20% del daño infligido repercute en el maná"
+        ]
+    },
+    {
+        "name": "Arcas",
+        "english": "Arcas",
+        "level": "53",
+        "sockets": "3",
+        "runes": [
+            "Ar",
+            "Ag",
+            "Or"
+        ],
+        "type": [
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "Nivel [11-15] aura Ola de frío sagrada cuando esta equipado",
+            "+100% mas posibilidades de conseguir un objeto mágico",
+            "88% oro extra de los monstruos",
+            "Duración del veneno reducida en un 17%",
+            "aumenta el maná maximo 25%",
+            "Nivel 20 Legion de arqueras (30 Cargas)",
+            "+[12-15] para Colision de fuego"
+        ]
+    },
+    {
+        "name": "Evandro",
+        "english": "Evandro",
+        "level": "53",
+        "sockets": "2",
+        "runes": [
+            "Ar",
+            "Ag"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "Nivel [11-20] aura Fanatismo cuando esta equipado",
+            "20% posibilidad de lanzar el nivel 30 Super nova cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el rayo en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Acusador",
+        "english": "Acusador",
+        "level": "53",
+        "sockets": "2",
+        "runes": [
+            "Ag",
+            "Or"
+        ],
+        "type": [
+            "Cascos de Barbaro",
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "Nivel [11-20] aura Fanatismo cuando esta equipado",
+            "5% posibilidad de lanzar el nivel 30 Nova de escarcha cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el rayo en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Mari",
+        "english": "Mari",
+        "level": "53",
+        "sockets": "4",
+        "runes": [
+            "Ar",
+            "Ag",
+            "Or",
+            "El"
+        ],
+        "type": [
+            "Escudos de paladín",
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del paladin",
+            "Nivel [11-20] aura Fanatismo cuando esta equipado",
+            "5% posibilidad de lanzar el nivel 30 Nova de escarcha cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el rayo en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Irina",
+        "english": "Irina",
+        "level": "53",
+        "sockets": "4",
+        "runes": [
+            "Ar",
+            "Ag",
+            "Or",
+            "Eld"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Orbes"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la hechicera",
+            "Nivel [11-20] aura Fanatismo cuando esta equipado",
+            "5% posibilidad de lanzar el nivel 30 Nova de escarcha cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el rayo en [8-10]%",
+            "+[10-30]% velocidad de lanzamiento mayor",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Satiro",
+        "english": "Satiro",
+        "level": "53",
+        "sockets": "4",
+        "runes": [
+            "Ar",
+            "Ag",
+            "Or",
+            "Tir"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del druida",
+            "Nivel [11-20] aura Fanatismo cuando esta equipado",
+            "5% posibilidad de lanzar el nivel 30 Nova de escarcha cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el rayo en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Silencio",
+        "english": "Silence",
+        "level": "55",
+        "sockets": "6",
+        "runes": [
+            "Dol",
+            "Eld",
+            "Hel",
+            "Ist",
+            "Tir",
+            "Vex"
+        ],
+        "type": [
+            "Todo tipo de armas"
+        ],
+        "stats": [
+            "+4% mana robado por impacto",
+            "el impacto ciega al objetivo",
+            "+200% daño perfeccionado",
+            "20% velocidad de ataque aumentada",
+            "todas las resistencias +75%",
+            "+2 a todas las habilidades",
+            "20% recuperacion de impacto mas rápida"
+        ]
+    },
+    {
+        "name": "Corazón de roble",
+        "english": "Heart of the Oak",
+        "level": "55",
+        "sockets": "4",
+        "runes": [
+            "Ko",
+            "Vex",
+            "Pul",
+            "Thul"
+        ],
+        "type": [
+            "Bastones",
+            "Mazas"
+        ],
+        "stats": [
+            "+40% velocidad de lanzamiento mayor",
+            "Nivel 4 Espíritu de roble (25 Cargas)",
+            "aumenta el maná maximo 15%",
+            "+3 a todas las habilidades",
+            "repostar vida 20",
+            "todas las resistencias +[30-40]%",
+            "Nivel 14 Cuervos (60 Cargas)"
+        ]
+    },
+    {
+        "name": "Llama",
+        "english": "Flickering Flame",
+        "level": "55",
+        "sockets": "3",
+        "runes": [
+            "Vex",
+            "Ral",
+            "Ko"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+[15-20]% daño a habilidades de fuego",
+            "-[15-20]% a la resistencia del enemigo al fuego",
+            "Absorbe el fuego en [15-20]%",
+            "Nivel 17 aura Fuego sagrado cuando esta equipado",
+            "20% posibilidad de lanzar el nivel 19 Bola de fuego al recibir un golpe",
+            "8% posibilidad de lanzar el nivel 13 Erupción al atacar",
+            "5 al radio de luz"
+        ]
+    },
+    {
+        "name": "Muerte",
+        "english": "Death",
+        "level": "55",
+        "sockets": "5",
+        "runes": [
+            "Hel",
+            "El",
+            "Vex",
+            "Ort",
+            "Gul"
+        ],
+        "type": [
+            "Hachas",
+            "Espadas"
+        ],
+        "stats": [
+            "100% de posibilidades de lanzar el nivel 44 de Cadena de relampagos al morir",
+            "25% posibilidad de lanzar el nivel 18 Punta glacial al atacar",
+            "indestructible",
+            "+[300-385]% daño perfeccionado",
+            "+50% golpe triturador",
+            "+[0-64]% azote mortal (0.5 por nivel)",
+            "Nivel 22 Golem de sangre (15 Cargas)"
+        ]
+    },
+    {
+        "name": "Inocencia",
+        "english": "Innocence",
+        "level": "55",
+        "sockets": "3",
+        "runes": [
+            "Vex",
+            "Lem",
+            "Ist"
+        ],
+        "type": [
+            "Martillos"
+        ],
+        "stats": [
+            "+[190-240]% daño perfeccionado",
+            "+[2-254] daño máximo (2.0 por nivel)",
+            "Repara 1 de durabilidad cada 7 segundos",
+            "+2 a todas las habilidades",
+            "Aumenta la vida maxima 25%",
+            "[15-25] a todos los atributos",
+            "-3% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Lealtad",
+        "english": "Loyalty",
+        "level": "55",
+        "sockets": "2",
+        "runes": [
+            "Vex",
+            "Dol"
+        ],
+        "type": [
+            "Todo tipo de escudos"
+        ],
+        "stats": [
+            "Nivel [5-9] aura Espinas cuando esta equipado",
+            "5% a la resistencia maxima al rayo",
+            "5% a la resistencia maxima al frio",
+            "5% a la resistencia maxima al veneno",
+            "todas las resistencias +100%",
+            "6% a la experiencia obtenida",
+            "+[35-50]% posiblidad de bloqueo mayor"
+        ]
+    },
+    {
+        "name": "Asombro",
+        "english": "Wonder",
+        "level": "55",
+        "sockets": "5",
+        "runes": [
+            "Vex",
+            "Amn",
+            "Shael",
+            "Amn",
+            "Vex"
+        ],
+        "type": [
+            "Armas de melé"
+        ],
+        "stats": [
+            "+275% daño perfeccionado",
+            "30% recuperacion de impacto mas rápida",
+            "+20 fuerza",
+            "+20 destreza",
+            "Oro extra de los monstruos +[1-200]% (aumenta cuando se acerca el anochecer)",
+            "+[1-100]% más posibilidades de conseguir un objeto mágico (aumenta cuando se acerca el amanecer)",
+            "+[2-190] vida (1.5 por nivel)"
+        ]
+    },
+    {
+        "name": "Llamada a las armas",
+        "english": "Call to Arms",
+        "level": "57",
+        "sockets": "5",
+        "runes": [
+            "Amn",
+            "Ral",
+            "Mal",
+            "Ist",
+            "Ohm"
+        ],
+        "type": [
+            "Todo tipo de armas"
+        ],
+        "stats": [
+            "40% velocidad de ataque aumentada",
+            "+[200-240]% daño perfeccionado",
+            "+1 a todas las habilidades",
+            "+[2-6] para Orden de batalla",
+            "+[1-6] para Órdenes de batalla",
+            "+[1-4] para Grito",
+            "repostar vida 12"
+        ]
+    },
+    {
+        "name": "Exilio",
+        "english": "Exile's Path",
+        "level": "57",
+        "sockets": "4",
+        "runes": [
+            "Vex",
+            "Ohm",
+            "Ist",
+            "Dol"
+        ],
+        "type": [
+            "Escudos de paladín"
+        ],
+        "stats": [
+            "+30% velocidad de bloqueo mayor",
+            "congela al objetivo",
+            "+[220-260]% defensa perfeccionada",
+            "Nivel [13-16] aura Desafio cuando esta equipado",
+            "+2 para habilidades de Combate (solo paladín)",
+            "15% posibilidad de lanzar el nivel 5 Grifo de vida al azotar",
+            "Repara 1 de durabilidad cada 4 segundos"
+        ]
+    },
+    {
+        "name": "Caos",
+        "english": "Chaos",
+        "level": "57",
+        "sockets": "3",
+        "runes": [
+            "Fal",
+            "Ohm",
+            "Um"
+        ],
+        "type": [
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+15 vida tras cada muerte de demonio",
+            "+[240-290]% daño perfeccionado",
+            "añade [216-471] al daño de magia",
+            "+1 para Torbellino",
+            "35% velocidad de ataque aumentada",
+            "9% posibilidad de lanzar el nivel 11 Orbe helado al azotar",
+            "11% posibilidad de lanzar el nivel 9 Saeta cargada al azotar"
+        ]
+    },
+    {
+        "name": "Bruma",
+        "english": "Mist",
+        "level": "57",
+        "sockets": "3",
+        "runes": [
+            "Ohm",
+            "Hel",
+            "Um"
+        ],
+        "type": [
+            "Porras"
+        ],
+        "stats": [
+            "+[250-300]% daño perfeccionado",
+            "33% posibilidad de lanzar el nivel 15 Erupción al recibir un golpe",
+            "Nivel 7 aura Desafio cuando esta equipado",
+            "+33% golpe triturador",
+            "+15% posiblidad de bloqueo mayor",
+            "+[1-127] daño máximo (1.0 por nivel)",
+            "+15 fuerza"
+        ]
+    },
+    {
+        "name": "Golpeteo",
+        "english": "Pattern",
+        "level": "57",
+        "sockets": "2",
+        "runes": [
+            "Ohm",
+            "Ohm"
+        ],
+        "type": [
+            "Armas a distancia"
+        ],
+        "stats": [
+            "+[2-254] daño máximo (2.0 por nivel)",
+            "todas las resistencias +75%",
+            "40% recuperacion de impacto mas rápida",
+            "40% velocidad de ataque aumentada",
+            "+2 a todas las habilidades",
+            "daño reducido en 25%",
+            "100% posibilidad de lanzar el nivel 12 Atracción al recibir un golpe"
+        ]
+    },
+    {
+        "name": "Alabanza",
+        "english": "Praise",
+        "level": "57",
+        "sockets": "4",
+        "runes": [
+            "Fal",
+            "Gul",
+            "Ohm",
+            "Shael"
+        ],
+        "type": [
+            "Martillos"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 15",
+            "+[280-350]% daño perfeccionado",
+            "ignorar defensa del objetivo",
+            "100% de posibilidades de lanzar el nivel 47 de Orbe helado al morir",
+            "100% posibilidad de lanzar el nivel 10 Punta glacial al recibir un golpe",
+            "+[1-200]% más posibilidades de conseguir un objeto mágico (aumenta cuando se acerca el día)",
+            "10% vida robada por impacto"
+        ]
+    },
+    {
+        "name": "Confianza",
+        "english": "Trust",
+        "level": "57",
+        "sockets": "3",
+        "runes": [
+            "Amn",
+            "Ohm",
+            "Fal"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 5",
+            "+[125-200]% defensa perfeccionada",
+            "+1 a todas las habilidades",
+            "[75-100] vida",
+            "20% velocidad de ataque aumentada",
+            "Añade 15-30 de daño",
+            "100% de posibilidades de lanzar el nivel 57 de Nova al morir"
+        ]
+    },
+    {
+        "name": "Victoria",
+        "english": "Victory",
+        "level": "57",
+        "sockets": "6",
+        "runes": [
+            "Ohm",
+            "Ohm",
+            "Ist",
+            "Lem",
+            "Ohm",
+            "Ohm"
+        ],
+        "type": [
+            "Hachas"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 24",
+            "+[2-318] daño máximo (2.5 por nivel)",
+            "Repara 1 de durabilidad cada 10 segundos",
+            "60% velocidad de ataque aumentada",
+            "requisitos -50%",
+            "evita la curacion del monstruo",
+            "añade [1-300] daño de frio, de fuego y de rayo"
+        ]
+    },
+    {
+        "name": "Noche",
+        "english": "Nightfall",
+        "level": "59",
+        "sockets": "3",
+        "runes": [
+            "Hel",
+            "Lo",
+            "Ohm"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+[150-300]% defensa perfeccionada",
+            "+[1-300]% más posibilidades de conseguir un objeto mágico (aumenta cuando se acerca la noche)",
+            "+[1-50] vitalidad (aumenta cuando se acerca la noche)",
+            "+[1-500] defensa (aumenta cuando se acerca la noche)",
+            "+[1-75] daño (aumenta cuando se acerca la noche)",
+            "Oro extra de los monstruos +[1-300]% (aumenta cuando se acerca la noche)",
+            "+[1-25] energía (aumenta cuando se acerca la noche)"
+        ]
+    },
+    {
+        "name": "Fortaleza",
+        "english": "Fortitude",
+        "level": "59",
+        "sockets": "4",
+        "runes": [
+            "El",
+            "Sol",
+            "Dol",
+            "Lo"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armas",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "20% posibilidad de lanzar el nivel 15 Armadura gélida al recibir un golpe",
+            "+300% daño perfeccionado",
+            "+200% defensa perfeccionada",
+            "+[1-127] vida (1.0 por nivel)",
+            "todas las resistencias +[25-30]%",
+            "+25% velocidad de lanzamiento mayor"
+        ]
+    },
+    {
+        "name": "Dolor",
+        "english": "Widowmaker",
+        "level": "59",
+        "sockets": "5",
+        "runes": [
+            "Eth",
+            "Tir",
+            "Lo",
+            "Mal",
+            "Ral"
+        ],
+        "type": [
+            "Hachas",
+            "Espadas"
+        ],
+        "stats": [
+            "20% posibilidad de lanzar el nivel 15 Veneno al azotar",
+            "[30-40]% velocidad de ataque aumentada",
+            "+[340-400] daño",
+            "ignorar defensa del objetivo",
+            "+[2-238]% daño a los demonios (1.88 por nivel)",
+            "-[20-25]% a la resistencia del enemigo al veneno",
+            "+11 vida tras cada muerte"
+        ]
+    },
+    {
+        "name": "Ulises",
+        "english": "Ulises",
+        "level": "59",
+        "sockets": "3",
+        "runes": [
+            "Lo",
+            "Ko",
+            "Mo"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "25% Reanimarse como: Sacasuma",
+            "25% Reanimarse como: Conejito",
+            "Absorbe el frio en 11%",
+            "Absorbe el rayo en 11%",
+            "Absorbe la magia en 11%",
+            "Absorbe el fuego en 11%",
+            "+2 a los niveles de habilidad del nigromante"
+        ]
+    },
+    {
+        "name": "Zarza",
+        "english": "Bramble",
+        "level": "61",
+        "sockets": "4",
+        "runes": [
+            "Ral",
+            "Ohm",
+            "Sur",
+            "Eth"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "50% recuperacion de impacto mas rápida",
+            "+300 defensa",
+            "Nivel [15-21] aura Espinas cuando esta equipado",
+            "+13 vida tras cada muerte",
+            "+[25-50]% daño a habilidades de veneno",
+            "resistencia al veneno +100%",
+            "Nivel 13 Espíritu de púas (33 Cargas)"
+        ]
+    },
+    {
+        "name": "Dragón",
+        "english": "Dragon",
+        "level": "61",
+        "sockets": "3",
+        "runes": [
+            "Sur",
+            "Lo",
+            "Sol"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "20% posibilidad de lanzar el nivel 18 Veneno al recibir un golpe",
+            "12% posibilidad de lanzar el nivel 15 Hidra al azotar",
+            "+360 defensa",
+            "+230 defensa contra misiles",
+            "+[0-48] de fuerza (segun nivel del personaje)",
+            "[3-5] a todos los atributos",
+            "Nivel 14 aura Fuego sagrado cuando esta equipado"
+        ]
+    },
+    {
+        "name": "Peste",
+        "english": "Plague",
+        "level": "61",
+        "sockets": "5",
+        "runes": [
+            "Sur",
+            "Um",
+            "Mal",
+            "Shael",
+            "Shael"
+        ],
+        "type": [
+            "Mazas"
+        ],
+        "stats": [
+            "+[200-250]% daño perfeccionado",
+            "599 daño de veneno durante 5 segundos",
+            "resistencia al veneno +80%",
+            "+10% a todas las resistencias máximas",
+            "+100% posibilidad de azote mortal",
+            "15% posibilidad de lanzar el nivel 27 Nova de veneno al azotar",
+            "Aumenta los requisitos de nivel en 10"
+        ]
+    },
+    {
+        "name": "Tradición",
+        "english": "Tradition",
+        "level": "61",
+        "sockets": "5",
+        "runes": [
+            "Sur",
+            "Lo",
+            "Ohm",
+            "Gul",
+            "Ist"
+        ],
+        "type": [
+            "Lanzas de amazona"
+        ],
+        "stats": [
+            "+3 a los niveles de habilidad de la amazona",
+            "+[325-400]% daño perfeccionado",
+            "10% vida robada por impacto",
+            "+10% mana robado por impacto",
+            "50% velocidad de ataque aumentada",
+            "-25% a la resistencia del enemigo al rayo",
+            "+25% daño a habilidades de rayo"
+        ]
+    },
+    {
+        "name": "Viento",
+        "english": "Wind",
+        "level": "61",
+        "sockets": "2",
+        "runes": [
+            "Sur",
+            "El"
+        ],
+        "type": [
+            "Armas de melé"
+        ],
+        "stats": [
+            "10% posibilidad de lanzar el nivel 9 Tornado al azotar",
+            "+20% recuperación de impacto más rápida",
+            "40% velocidad de ataque aumentada",
+            "15% recuperacion de impacto mas rápida",
+            "+[120-160]% daño perfeccionado",
+            "-50% defensa del objetivo",
+            "Nivel 13 Tornado (127 Cargas)"
+        ]
+    },
+    {
+        "name": "Centauro",
+        "english": "Centauro",
+        "level": "61",
+        "sockets": "2",
+        "runes": [
+            "Sur",
+            "Ari"
+        ],
+        "type": [
+            "Varas",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "12 a todos los atributos",
+            "25% Reanimarse como: Susto de noche",
+            "+[1-2] a los niveles de habilidad del nigromante",
+            "+[11-15] defensa contra misiles",
+            "+[1-159] mana (1.25 por nivel)",
+            "+[0-64] vida (0.5 por nivel)",
+            "+10 vida tras cada muerte"
+        ]
+    },
+    {
+        "name": "Endouelico",
+        "english": "Endouelico",
+        "level": "61",
+        "sockets": "3",
+        "runes": [
+            "Leo",
+            "Sur",
+            "Um"
+        ],
+        "type": [
+            "Armas a distancia",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "+[200-300]% daño perfeccionado",
+            "+[2-254] daño máximo (2.0 por nivel)",
+            "Añade 40-100 de daño",
+            "50% velocidad de ataque aumentada",
+            "+3 para habilidades de Arco y ballesta (solo amazona)",
+            "10% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Cadenas de honor",
+        "english": "Bound by Duty",
+        "level": "63",
+        "sockets": "4",
+        "runes": [
+            "Dol",
+            "Um",
+            "Ber",
+            "Ist"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "todas las resistencias +50%",
+            "+70% defensa perfeccionada",
+            "+200% daño a los demonios",
+            "+100% daño a los muertos vivientes",
+            "8% vida robada por impacto",
+            "+2 a todas las habilidades",
+            "+20 fuerza"
+        ]
+    },
+    {
+        "name": "Eternidad",
+        "english": "Eternity",
+        "level": "63",
+        "sockets": "5",
+        "runes": [
+            "Amn",
+            "Ber",
+            "Ist",
+            "Sol",
+            "Sur"
+        ],
+        "type": [
+            "Armas de melé"
+        ],
+        "stats": [
+            "+[260-310]% daño perfeccionado",
+            "indestructible",
+            "Ralentiza al Objetivo un 33%",
+            "Nivel 8 Revivir (88 Cargas)",
+            "repostar vida 16",
+            "regenerar maná 16%",
+            "no puede congelarse"
+        ]
+    },
+    {
+        "name": "Bestia",
+        "english": "The Beast",
+        "level": "63",
+        "sockets": "5",
+        "runes": [
+            "Ber",
+            "Tir",
+            "Um",
+            "Mal",
+            "Lum"
+        ],
+        "type": [
+            "Hachas",
+            "Martillos",
+            "Cetros"
+        ],
+        "stats": [
+            "40% velocidad de ataque aumentada",
+            "Nivel 9 aura Fanatismo cuando esta equipado",
+            "+[240-270]% daño perfeccionado",
+            "+[25-40] fuerza",
+            "Nivel 13 Invoca al oso pardo (5 Cargas)",
+            "+3 para Hombre oso",
+            "+3 para Licantropía"
+        ]
+    },
+    {
+        "name": "Hueso",
+        "english": "Bone",
+        "level": "63",
+        "sockets": "2",
+        "runes": [
+            "Ber",
+            "Um"
+        ],
+        "type": [
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "+2 a los niveles de habilidad del nigromante",
+            "+4 para habilidades de Veneno y hueso (solo nigromante)",
+            "+3 para Escudo de huesos (solo nigromante)",
+            "+3 para Muro de huesos (solo nigromante)",
+            "+3 para Lanza de hueso (solo nigromante)",
+            "+3 para Prisión de hueso (solo nigromante)",
+            "+3 para Espíritu de hueso (solo nigromante)"
+        ]
+    },
+    {
+        "name": "Infinito",
+        "english": "Infinity",
+        "level": "63",
+        "sockets": "4",
+        "runes": [
+            "Ber",
+            "Mal",
+            "Ber",
+            "Ist"
+        ],
+        "type": [
+            "Brazos de guerra"
+        ],
+        "stats": [
+            "50% posibilidad de lanzar el nivel 20 Cadena de relampagos cuando mates un enemigo",
+            "Nivel 12 aura Convicción cuando esta equipado",
+            "+35% recuperación de impacto más rápida",
+            "+[255-325]% daño perfeccionado",
+            "-55% a la resistencia del enemigo al rayo",
+            "+[0-64] vitalidad (0.5 por nivel)",
+            "Nivel 21 Armadura de ciclón (30 Cargas)"
+        ]
+    },
+    {
+        "name": "Vela del caballero",
+        "english": "Knight's Vigil",
+        "level": "63",
+        "sockets": "4",
+        "runes": [
+            "Ber",
+            "Lem",
+            "Um",
+            "Ist"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+2 a los niveles de habilidad del paladin",
+            "Nivel [8-12] aura Meditación cuando esta equipado",
+            "+40% velocidad de lanzamiento mayor",
+            "+[20-30]% posiblidad de bloqueo mayor",
+            "+20% velocidad de bloqueo mayor",
+            "Aumenta los requisitos de nivel en 12",
+            "repostar vida [10-15]"
+        ]
+    },
+    {
+        "name": "Voluntad de hierro",
+        "english": "Unbending Will",
+        "level": "63",
+        "sockets": "6",
+        "runes": [
+            "Ber",
+            "Lum",
+            "Ist",
+            "Ist",
+            "Tir",
+            "Amn"
+        ],
+        "type": [
+            "Espadas"
+        ],
+        "stats": [
+            "+280% daño perfeccionado",
+            "indestructible",
+            "50% posibilidad de lanzar el nivel 10 Nova al azotar",
+            "evita la curacion del monstruo",
+            "Aumenta los requisitos de nivel en 12",
+            "60% recuperacion de impacto mas rápida"
+        ]
+    },
+    {
+        "name": "Ira",
+        "english": "Wrath",
+        "level": "63",
+        "sockets": "4",
+        "runes": [
+            "Pul",
+            "Lum",
+            "Ber",
+            "Mal"
+        ],
+        "type": [
+            "Armas a distancia"
+        ],
+        "stats": [
+            "30% posibilidad de lanzar el nivel 1 Decrepitación al azotar",
+            "5% posibilidad de lanzar el nivel 10 Grifo de vida al azotar",
+            "+300% daño a los demonios",
+            "no puede congelarse",
+            "+[250-300]% daño a los muertos vivientes",
+            "añade [85-120] al daño de magia",
+            "añade [41-240] daño de rayo"
+        ]
+    },
+    {
+        "name": "Furia",
+        "english": "Fury",
+        "level": "65",
+        "sockets": "3",
+        "runes": [
+            "Jah",
+            "Gul",
+            "Eth"
+        ],
+        "type": [
+            "Armas de melé"
+        ],
+        "stats": [
+            "+209% daño perfeccionado",
+            "40% velocidad de ataque aumentada",
+            "evita la curacion del monstruo",
+            "66% posibilidad de heridas abiertas",
+            "6% vida robada por impacto",
+            "+33% posibilidad de azote mortal",
+            "+5 para Frenesí (solo bárbaro)"
+        ]
+    },
+    {
+        "name": "Enigma",
+        "english": "Enigma",
+        "level": "65",
+        "sockets": "3",
+        "runes": [
+            "Jah",
+            "Ith",
+            "Ber"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+[750-775] defensa",
+            "+14 vida tras cada muerte",
+            "+45% recuperación de impacto más rápida",
+            "+[1-95] de fuerza (segun nivel del personaje)",
+            "+2 a todas las habilidades",
+            "+[1-127]% de Probabilidad de Encontrar Objetos Mágicos (1.0 por nivel)",
+            "+1 para Teletransporte"
+        ]
+    },
+    {
+        "name": "Hambruna",
+        "english": "Famine",
+        "level": "65",
+        "sockets": "4",
+        "runes": [
+            "Fal",
+            "Ohm",
+            "Ort",
+            "Jah"
+        ],
+        "type": [
+            "Hachas",
+            "Martillos"
+        ],
+        "stats": [
+            "+[270-320]% daño perfeccionado",
+            "12% vida robada por impacto",
+            "30% velocidad de ataque aumentada",
+            "evita la curacion del monstruo",
+            "añade [180-200] al daño de magia",
+            "añade [50-200] daño de frio, de fuego y de rayo"
+        ]
+    },
+    {
+        "name": "Tormenta",
+        "english": "Storm",
+        "level": "65",
+        "sockets": "5",
+        "runes": [
+            "Jah",
+            "Um",
+            "Ohm",
+            "Ort",
+            "Nef"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armas",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+333% daño perfeccionado",
+            "20% velocidad de ataque aumentada",
+            "16% posibilidad de lanzar el nivel 21 Relampago al azotar",
+            "+10 para Tormenta atronadora",
+            "resistencia al rayo +100%",
+            "Absorbe el rayo en 25%",
+            "3% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Fe",
+        "english": "Faith",
+        "level": "65",
+        "sockets": "4",
+        "runes": [
+            "Ohm",
+            "Jah",
+            "Lem",
+            "Eld"
+        ],
+        "type": [
+            "Armas a distancia"
+        ],
+        "stats": [
+            "Nivel [12-15] aura Fanatismo cuando esta equipado",
+            "+[1-2] a todas las habilidades",
+            "+330% daño perfeccionado",
+            "+300% bonificacion en el ataque",
+            "todas las resistencias +15%",
+            "añade 120 daño de fuego",
+            "10% Reanimarse como: Horror"
+        ]
+    },
+    {
+        "name": "Tizón",
+        "english": "Brand",
+        "level": "65",
+        "sockets": "4",
+        "runes": [
+            "Jah",
+            "Lo",
+            "Mal",
+            "Gul"
+        ],
+        "type": [
+            "Armas a distancia"
+        ],
+        "stats": [
+            "35% posibilidad de lanzar el nivel 14 Daño aumentado al recibir un golpe",
+            "100% posibilidad de lanzar el nivel 18 Lanza de hueso al azotar",
+            "Dispara flechas explosivas nivel {values}",
+            "+[260-340]% daño perfeccionado",
+            "+[280-330]% daño a los demonios",
+            "el objetivo retrocede"
+        ]
+    },
+    {
+        "name": "Luz",
+        "english": "Daylight",
+        "level": "65",
+        "sockets": "3",
+        "runes": [
+            "Jah",
+            "Fal",
+            "Um"
+        ],
+        "type": [
+            "Orbes"
+        ],
+        "stats": [
+            "+3 a los niveles de habilidad de la hechicera",
+            "regenerar maná 50%",
+            "+30% velocidad de lanzamiento mayor",
+            "Nivel 4 aura Convicción cuando esta equipado",
+            "Nivel 18 Reducción de resistencias (33 Cargas)",
+            "aumenta el maná maximo 50%",
+            "Aumenta la vida maxima 25%"
+        ]
+    },
+    {
+        "name": "Destrucción",
+        "english": "Destruction",
+        "level": "65",
+        "sockets": "5",
+        "runes": [
+            "Vex",
+            "Lo",
+            "Ber",
+            "Jah",
+            "Ko"
+        ],
+        "type": [
+            "Espadas",
+            "Brazos de guerra"
+        ],
+        "stats": [
+            "23% posibilidad de lanzar el nivel 12 Volcán al azotar",
+            "5% posibilidad de lanzar el nivel 23 Roca líquida al azotar",
+            "100% de posibilidades de lanzar el nivel 45 de Meteoro al morir",
+            "15% posibilidad de lanzar el nivel 22 Nova al atacar",
+            "+350% daño perfeccionado",
+            "añade [100-180] al daño de magia"
+        ]
+    },
+    {
+        "name": "Sueño",
+        "english": "Dream",
+        "level": "65",
+        "sockets": "3",
+        "runes": [
+            "Io",
+            "Jah",
+            "Pul"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Cascos"
+        ],
+        "stats": [
+            "10% posibilidad de lanzar el nivel 15 Confusión al recibir un golpe",
+            "Nivel 15 aura Rayo sagrado cuando esta equipado",
+            "[20-30]% recuperacion de impacto mas rápida",
+            "+[150-220] defensa",
+            "+[1-79] mana (0.62 por nivel)",
+            "todas las resistencias +[5-20]%",
+            "+[15-25]% mas posibilidades de conseguir un objeto mágico"
+        ]
+    },
+    {
+        "name": "Hielo",
+        "english": "Ice",
+        "level": "65",
+        "sockets": "4",
+        "runes": [
+            "Amn",
+            "Shael",
+            "Jah",
+            "Lo"
+        ],
+        "type": [
+            "Armas a distancia"
+        ],
+        "stats": [
+            "100% de posibilidades de lanzar el nivel 40 de Ventisca al subir de nivel",
+            "25% posibilidad de lanzar el nivel 22 Nova de escarcha al azotar",
+            "Nivel 18 aura Ola de frío sagrada cuando esta equipado",
+            "+[140-210]% daño perfeccionado",
+            "+[25-30]% daño a habilidades de frio",
+            "-20% a la resistencia del enemigo al frio",
+            "+[3-397]% oro extra de los monstruos (3.12 por nivel)"
+        ]
+    },
+    {
+        "name": "Fénix",
+        "english": "Phoenix",
+        "level": "65",
+        "sockets": "4",
+        "runes": [
+            "Vex",
+            "Vex",
+            "Lo",
+            "Jah"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armas"
+        ],
+        "stats": [
+            "100% de posibilidades de lanzar el nivel 40 de Llamarada al subir de nivel",
+            "40% posibilidad de lanzar el nivel 22 Tormenta de fuego al azotar",
+            "Nivel 13 aura Redención cuando esta equipado",
+            "+[350-400]% daño perfeccionado",
+            "-28% a la resistencia del enemigo al fuego",
+            "+[350-400] defensa contra misiles",
+            "+[15-21] absorcion de fuego"
+        ]
+    },
+    {
+        "name": "Habilidad en combate",
+        "english": "Prowess in Battle",
+        "level": "65",
+        "sockets": "3",
+        "runes": [
+            "Jah",
+            "Ist",
+            "Fal"
+        ],
+        "type": [
+            "Cascos de Barbaro"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 10",
+            "+3 a los niveles de habilidad del barbaro",
+            "+50% bonificacion en el ataque",
+            "Nivel 6 aura Fanatismo cuando esta equipado",
+            "+100% daño perfeccionado",
+            "40% recuperacion de impacto mas rápida",
+            "+[3-381] defensa (3.0 por nivel)"
+        ]
+    },
+    {
+        "name": "Tiempo",
+        "english": "Time",
+        "level": "65",
+        "sockets": "2",
+        "runes": [
+            "Jah",
+            "Amn"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+[160-220]% defensa perfeccionada",
+            "20% a la experiencia obtenida",
+            "[35-50] vida",
+            "Aumenta la vida maxima [10-20]%",
+            "100% posibilidad de lanzar el nivel 25 Nova al recibir un golpe",
+            "evita la curacion del monstruo",
+            "+1 para Teletransporte"
+        ]
+    },
+    {
+        "name": "Sabiduría",
+        "english": "Wisdom",
+        "level": "65",
+        "sockets": "2",
+        "runes": [
+            "Jah",
+            "Lum"
+        ],
+        "type": [
+            "Varas"
+        ],
+        "stats": [
+            "+2 a todas las habilidades",
+            "[3-5]% a la experiencia obtenida",
+            "Reduce todos los precios de los vendedores 10%",
+            "+[2-254] mana (2.0 por nivel)",
+            "repostar vida 5",
+            "regenerar maná 75%",
+            "resistencia a la magia +20%"
+        ]
+    },
+    {
+        "name": "Aretusa",
+        "english": "Aretusa",
+        "level": "65",
+        "sockets": "3",
+        "runes": [
+            "Tau",
+            "Ber",
+            "Noa"
+        ],
+        "type": [
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "Nivel [11-15] aura Rayo sagrado cuando esta equipado",
+            "+155% defensa perfeccionada",
+            "Absorbe el rayo en 10%",
+            "Resistencia al rayo +[1-127]% (1.0 por nivel)",
+            "+20 al daño máximo de rayo (aumenta cuando se acerca el día)",
+            "+20% correr/andar mas rapido"
+        ]
+    },
+    {
+        "name": "Lug",
+        "english": "Lug",
+        "level": "65",
+        "sockets": "2",
+        "runes": [
+            "Tau",
+            "Noa"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el frio en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Tagotis",
+        "english": "Tagotis",
+        "level": "65",
+        "sockets": "2",
+        "runes": [
+            "Tau",
+            "Vex"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el rayo en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Net",
+        "english": "Net",
+        "level": "65",
+        "sockets": "2",
+        "runes": [
+            "Tau",
+            "Jah"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el fuego en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Sitiouio",
+        "english": "Sitiouio",
+        "level": "65",
+        "sockets": "2",
+        "runes": [
+            "Tau",
+            "Leo"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+[2-4] para habilidades de Javalina y lanza (solo amazona)",
+            "+[100-255]% defensa perfeccionada",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "+40% velocidad de bloqueo mayor",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Adaegina",
+        "english": "Adaegina",
+        "level": "65",
+        "sockets": "3",
+        "runes": [
+            "Tau",
+            "Ber",
+            "Noa"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+[2-4] para habilidades de Javalina y lanza (solo amazona)",
+            "+[100-255]% defensa perfeccionada",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "20% recuperacion de impacto mas rápida",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Fatalidad",
+        "english": "Doomsayer",
+        "level": "67",
+        "sockets": "5",
+        "runes": [
+            "Hel",
+            "Ohm",
+            "Um",
+            "Lo",
+            "Cham"
+        ],
+        "type": [
+            "Hachas",
+            "Martillos",
+            "Brazos de guerra"
+        ],
+        "stats": [
+            "+[280-320]% daño perfeccionado",
+            "Nivel 12 aura Ola de frio sagrada cuando esta equipado",
+            "45% velocidad de ataque aumentada",
+            "evita la curacion del monstruo",
+            "-[40-60]% a la resistencia del enemigo al frio",
+            "+2 a todas las habilidades",
+            "5% posibilidad de lanzar el nivel 18 Volcán al azotar"
+        ]
+    },
+    {
+        "name": "Mano justiciera",
+        "english": "Hand of Justice",
+        "level": "67",
+        "sockets": "4",
+        "runes": [
+            "Sur",
+            "Cham",
+            "Amn",
+            "Lo"
+        ],
+        "type": [
+            "Todo tipo de armas"
+        ],
+        "stats": [
+            "33% velocidad de ataque aumentada",
+            "+[280-330]% daño perfeccionado",
+            "Nivel 16 aura Fuego sagrado cuando esta equipado",
+            "100% de posibilidades de lanzar el nivel 36 de Llamarada al subir de nivel",
+            "100% de posibilidades de lanzar el nivel 48 de Meteoro al morir",
+            "ignorar defensa del objetivo",
+            "-20% a la resistencia del enemigo al fuego"
+        ]
+    },
+    {
+        "name": "Armagedón",
+        "english": "Armageddon",
+        "level": "67",
+        "sockets": "6",
+        "runes": [
+            "Ral",
+            "Ort",
+            "Thul",
+            "Cham",
+            "Ber",
+            "Hel"
+        ],
+        "type": [
+            "Espadas"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 13",
+            "+[275-350]% daño perfeccionado",
+            "añade [50-300] daño de frio, de fuego y de rayo",
+            "40% posibilidad de lanzar el nivel 20 Ventisca al azotar",
+            "40% posibilidad de lanzar el nivel 20 Cadena de relampagos al recibir un golpe",
+            "30% velocidad de ataque aumentada",
+            "todas las resistencias +35%"
+        ]
+    },
+    {
+        "name": "Promesa rota",
+        "english": "Broken Promise",
+        "level": "67",
+        "sockets": "5",
+        "runes": [
+            "Cham",
+            "Vex",
+            "Amn",
+            "Shael",
+            "Lo"
+        ],
+        "type": [
+            "Todo tipo de armas"
+        ],
+        "stats": [
+            "+[350-400]% daño perfeccionado",
+            "+2 a todas las habilidades",
+            "+[3-381] daño máximo (3.0 por nivel)",
+            "-5% a la experiencia obtenida",
+            "18% posibilidad de lanzar el nivel 18 Espíritu de hueso al azotar",
+            "Aumenta los requisitos de nivel en 15",
+            "+[1-100]% golpe triturador (aumenta cuando se acerca el anochecer)"
+        ]
+    },
+    {
+        "name": "Júbilo",
+        "english": "Destiny's Daughter",
+        "level": "67",
+        "sockets": "5",
+        "runes": [
+            "Shael",
+            "Nef",
+            "Cham",
+            "Thul",
+            "Vex"
+        ],
+        "type": [
+            "Arcos de amazona"
+        ],
+        "stats": [
+            "+[40-63] al daño minimo",
+            "+[2-286] daño máximo (2.25 por nivel)",
+            "100% posibilidad de lanzar el nivel 8 Nova al azotar",
+            "evita la curacion del monstruo",
+            "100% de posibilidades de lanzar el nivel 60 de Nova al morir",
+            "+[20-25]% daño a habilidades de frio",
+            "+[20-25]% daño a habilidades de fuego"
+        ]
+    },
+    {
+        "name": "Último deseo",
+        "english": "Last Wish",
+        "level": "67",
+        "sockets": "6",
+        "runes": [
+            "Cham",
+            "Mal",
+            "Jah",
+            "Sur",
+            "Jah",
+            "Ber"
+        ],
+        "type": [
+            "Hachas",
+            "Martillos",
+            "Espadas"
+        ],
+        "stats": [
+            "6% posibilidad de lanzar el nivel 11 Fundido al recibir un golpe",
+            "10% posibilidad de lanzar el nivel 18 Grifo de vida al azotar",
+            "20% posibilidad de lanzar el nivel 20 Saeta cargada al atacar",
+            "Nivel 17 aura Fuerza cuando esta equipado",
+            "+[330-375]% daño perfeccionado",
+            "+[0-10]% golpe triturador",
+            "+[0-64]% de Probabilidad de Encontrar Objetos Mágicos (0.5 por nivel)"
+        ]
+    },
+    {
+        "name": "Mito",
+        "english": "Myth",
+        "level": "67",
+        "sockets": "6",
+        "runes": [
+            "Fal",
+            "Cham",
+            "Ber",
+            "Hel",
+            "Tir",
+            "Ral"
+        ],
+        "type": [
+            "Lanzas"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 8",
+            "Añade 63-127 de daño",
+            "Repara 1 de durabilidad cada 7 segundos",
+            "+[80-120]% daño perfeccionado",
+            "+3 a todas las habilidades",
+            "todas las resistencias +50%",
+            "100% de posibilidades de lanzar el nivel 60 de Nova al morir"
+        ]
+    },
+    {
+        "name": "Peligro",
+        "english": "Peril",
+        "level": "67",
+        "sockets": "6",
+        "runes": [
+            "Cham",
+            "Lo",
+            "Ber",
+            "Ber",
+            "Lo",
+            "Cham"
+        ],
+        "type": [
+            "Armas a distancia"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 11",
+            "+63 al daño minimo",
+            "+127 al daño maximo",
+            "75% velocidad de ataque aumentada",
+            "+1 a todas las habilidades",
+            "+[1-127]% de Probabilidad de Encontrar Objetos Mágicos (1.0 por nivel)",
+            "[20-30] a todos los atributos"
+        ]
+    },
+    {
+        "name": "Orgullo",
+        "english": "Pride",
+        "level": "67",
+        "sockets": "4",
+        "runes": [
+            "Cham",
+            "Sur",
+            "Lo",
+            "Io"
+        ],
+        "type": [
+            "Brazos de guerra"
+        ],
+        "stats": [
+            "25% posibilidad de lanzar el nivel 17 Muro de fuego al recibir un golpe",
+            "Nivel 18 aura Concentración cuando esta equipado",
+            "+[260-300]% bonificacion en el ataque",
+            "+[1-127]% daño a los demonios (1.0 por nivel)",
+            "añade [50-280] daño de rayo",
+            "repostar vida 8",
+            "15% oro extra de los monstruos"
+        ]
+    },
+    {
+        "name": "Lluvia",
+        "english": "Rain",
+        "level": "67",
+        "sockets": "3",
+        "runes": [
+            "Ber",
+            "Cham",
+            "Ber"
+        ],
+        "type": [
+            "Aros"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 22",
+            "+4 a todas las habilidades",
+            "[100-150] vida",
+            "[60-100] maná",
+            "25 a todos los atributos",
+            "repostar vida 20",
+            "regenerar maná 100%"
+        ]
+    },
+    {
+        "name": "Valor",
+        "english": "Valor",
+        "level": "67",
+        "sockets": "6",
+        "runes": [
+            "Shael",
+            "Tir",
+            "Dol",
+            "Cham",
+            "Sur",
+            "Um"
+        ],
+        "type": [
+            "Armas de melé"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 10",
+            "+63 al daño minimo",
+            "+[2-318] daño máximo (2.5 por nivel)",
+            "indestructible",
+            "5% a la experiencia obtenida",
+            "Nivel 40 Órdenes de batalla (15 Cargas)"
+        ]
+    },
+    {
+        "name": "Alas de esperanza",
+        "english": "Wings of Hope",
+        "level": "67",
+        "sockets": "2",
+        "runes": [
+            "Cham",
+            "Cham"
+        ],
+        "type": [
+            "Cetros"
+        ],
+        "stats": [
+            "+[60-63] al daño minimo",
+            "+[100-127] al daño maximo",
+            "+8 para Teletransporte",
+            "Nivel 3 aura Salvación cuando esta equipado",
+            "25% posibilidad de lanzar el nivel 35 Lanza de hueso al azotar",
+            "mata a los monstruos",
+            "20 a todos los atributos"
+        ]
+    },
+    {
+        "name": "Aflicción",
+        "english": "Woe",
+        "level": "67",
+        "sockets": "3",
+        "runes": [
+            "Cham",
+            "Tir",
+            "Shael"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 7",
+            "25% posibilidad de lanzar el nivel 25 Cadena de relampagos al recibir un golpe",
+            "25% posibilidad de lanzar el nivel 25 Bola de fuego al recibir un golpe",
+            "25% posibilidad de lanzar el nivel 25 Ventisca al recibir un golpe",
+            "+2 a todas las habilidades",
+            "25 a todos los atributos",
+            "Duración del veneno reducida en un 80%"
+        ]
+    },
+    {
+        "name": "Demonio",
+        "english": "Demonio",
+        "level": "67",
+        "sockets": "2",
+        "runes": [
+            "Cham",
+            "Ge"
+        ],
+        "type": [
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "+30% correr/andar mas rapido",
+            "20% a la resistencia maxima a la magia",
+            "Absorbe la magia en [10-15]%",
+            "[15-50]% Reanimarse como: Flechera",
+            "+20 vida tras cada muerte",
+            "11% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Yaincoa",
+        "english": "Yaincoa",
+        "level": "67",
+        "sockets": "4",
+        "runes": [
+            "Cham",
+            "Ge",
+            "Eth",
+            "Tau"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "Nivel [11-20] aura Fuego sagrado cuando esta equipado",
+            "20% posibilidad de lanzar el nivel 20 Legion de arqueras cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el fuego en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Frouida",
+        "english": "Frouida",
+        "level": "67",
+        "sockets": "2",
+        "runes": [
+            "Umno",
+            "Or"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "Nivel [11-15] aura Convicción cuando esta equipado",
+            "10% posibilidad de lanzar el nivel 30 Daño aumentado cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el frio en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Poemana",
+        "english": "Poemana",
+        "level": "67",
+        "sockets": "4",
+        "runes": [
+            "Umno",
+            "Ge",
+            "Eth",
+            "Tau"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "Nivel [11-20] aura Fuego sagrado cuando esta equipado",
+            "5% posibilidad de lanzar el nivel 20 Legion de arqueras cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el fuego en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Saur",
+        "english": "Saur",
+        "level": "67",
+        "sockets": "2",
+        "runes": [
+            "Umno",
+            "Noa"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el frio en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Tullonio",
+        "english": "Tullonio",
+        "level": "67",
+        "sockets": "2",
+        "runes": [
+            "Umno",
+            "Vex"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el rayo en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Gerion",
+        "english": "Gerion",
+        "level": "67",
+        "sockets": "2",
+        "runes": [
+            "Umno",
+            "Jah"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el fuego en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "tartessos",
+        "english": "tartessos",
+        "level": "67",
+        "sockets": "2",
+        "runes": [
+            "Umno",
+            "Leo"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+[2-4] a los niveles de habilidad de la asesina",
+            "+[100-255]% defensa perfeccionada",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "+40% velocidad de bloqueo mayor",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Heracles",
+        "english": "Heracles",
+        "level": "67",
+        "sockets": "3",
+        "runes": [
+            "Umno",
+            "Ber",
+            "Noa"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+[2-4] a los niveles de habilidad de la asesina",
+            "+[100-255]% defensa perfeccionada",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "20% recuperacion de impacto mas rápida",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Vagadonnaego",
+        "english": "Vagadonnaego",
+        "level": "67",
+        "sockets": "2",
+        "runes": [
+            "Umno",
+            "Beta"
+        ],
+        "type": [
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "+[200-300]% daño perfeccionado",
+            "+[2-254] daño máximo (2.0 por nivel)",
+            "Añade 40-100 de daño",
+            "50% velocidad de ataque aumentada",
+            "+3 para habilidades de Arco y ballesta (solo amazona)",
+            "10% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Achelo",
+        "english": "Achelo",
+        "level": "67",
+        "sockets": "2",
+        "runes": [
+            "Umno",
+            "Cap"
+        ],
+        "type": [
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "Nivel 5 aura Fanatismo cuando esta equipado",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "+[200-320]% daño perfeccionado",
+            "+[6-8]% mana robado por impacto",
+            "el objetivo retrocede",
+            "40% velocidad de ataque aumentada"
+        ]
+    },
+    {
+        "name": "Virilidad",
+        "english": "Virilidad",
+        "level": "67",
+        "sockets": "3",
+        "runes": [
+            "Umno",
+            "Jah",
+            "Piscis"
+        ],
+        "type": [
+            "Armas de asesina"
+        ],
+        "stats": [
+            "50% posibilidad de lanzar el nivel 20 Cadena de relampagos cuando mates un enemigo",
+            "Nivel 12 aura Convicción cuando esta equipado",
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "+[255-325]% daño perfeccionado",
+            "-55% a la resistencia del enemigo al rayo",
+            "+33% posibilidad de azote mortal",
+            "ignorar defensa del objetivo"
+        ]
+    },
+    {
+        "name": "Aliento de los muertos",
+        "english": "Breath of the Dying",
+        "level": "69",
+        "sockets": "6",
+        "runes": [
+            "Vex",
+            "Hel",
+            "El",
+            "Eld",
+            "Zod",
+            "Eth"
+        ],
+        "type": [
+            "Todo tipo de armas"
+        ],
+        "stats": [
+            "60% velocidad de ataque aumentada",
+            "+125% daño a los muertos vivientes",
+            "[12-15]% vida robada por impacto",
+            "evita la curacion del monstruo",
+            "50% posibilidad de lanzar el nivel 20 Nova de veneno cuando mates un enemigo",
+            "+[350-400]% daño perfeccionado",
+            "30 a todos los atributos"
+        ]
+    },
+    {
+        "name": "Luz de las estrellas",
+        "english": "Starlight",
+        "level": "69",
+        "sockets": "4",
+        "runes": [
+            "Zod",
+            "Hel",
+            "Ist",
+            "El"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Todo tipo de armas",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+3 a todas las habilidades",
+            "Añade 35-127 de daño",
+            "+[100-200]% defensa perfeccionada",
+            "requisitos -80%",
+            "+[150-155]% mas posibilidades de conseguir un objeto mágico",
+            "Aumenta los requisitos de nivel en 20",
+            "20% recuperacion de impacto mas rápida"
+        ]
+    },
+    {
+        "name": "Autoridad",
+        "english": "Authority",
+        "level": "69",
+        "sockets": "3",
+        "runes": [
+            "Cham",
+            "Zod",
+            "Ber"
+        ],
+        "type": [
+            "Cascos"
+        ],
+        "stats": [
+            "+2 a todas las habilidades",
+            "Aumenta los requisitos de nivel en 12",
+            "+[2-190]% de Probabilidad de Encontrar Objetos Mágicos (1.5 por nivel)",
+            "+[160-200]% defensa perfeccionada",
+            "16% posibilidad de lanzar el nivel 9 Debilitar al azotar",
+            "Ralentiza al Objetivo un 20%",
+            "+25% posibilidad de azote mortal"
+        ]
+    },
+    {
+        "name": "Oscuridad",
+        "english": "Darkness",
+        "level": "69",
+        "sockets": "3",
+        "runes": [
+            "Zod",
+            "Amn",
+            "Vex"
+        ],
+        "type": [
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+3 a los niveles de habilidad de la asesina",
+            "+[1-100] fuerza (aumenta cuando se acerca el anochecer)",
+            "+[1-100] vitalidad (aumenta cuando se acerca el amanecer)",
+            "Añade 63-127 de daño",
+            "todas las resistencias +[20-40]%",
+            "daño reducido en 15%",
+            "+[1-127]% de Probabilidad de Encontrar Objetos Mágicos (1.0 por nivel)"
+        ]
+    },
+    {
+        "name": "Humildad",
+        "english": "Humility",
+        "level": "69",
+        "sockets": "4",
+        "runes": [
+            "Zod",
+            "Um",
+            "Ith",
+            "Cham"
+        ],
+        "type": [
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 17",
+            "+[10-15] para Grito",
+            "+[10-15] para Órdenes de batalla",
+            "+[10-15] para Orden de batalla",
+            "+[10-15] para Armadura gélida",
+            "+[10-15] para Valquiria",
+            "Nivel [5-7] aura Salvación cuando esta equipado"
+        ]
+    },
+    {
+        "name": "Mañana",
+        "english": "Morning Dew",
+        "level": "69",
+        "sockets": "6",
+        "runes": [
+            "Mal",
+            "Ith",
+            "Ber",
+            "Cham",
+            "Zod",
+            "Ist"
+        ],
+        "type": [
+            "Brazos de guerra"
+        ],
+        "stats": [
+            "Aumenta los requisitos de nivel en 10",
+            "50% velocidad de ataque aumentada",
+            "+[300-360]% daño perfeccionado",
+            "+3 a los niveles de habilidad del druida",
+            "+20 para Dominio del brazo de guerra",
+            "100% posibilidad de lanzar el nivel 20 Campo estático cuando mates un enemigo",
+            "todas las resistencias +25%"
+        ]
+    },
+    {
+        "name": "Misterio",
+        "english": "Mystery",
+        "level": "69",
+        "sockets": "3",
+        "runes": [
+            "Shael",
+            "Zod",
+            "Gul"
+        ],
+        "type": [
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "+3 a los niveles de habilidad del druida",
+            "aumenta el maná maximo 15%",
+            "Aumenta la vida maxima 15%",
+            "todas las resistencias +[30-50]%",
+            "Nivel 6 aura Concentración cuando esta equipado",
+            "20% velocidad de ataque aumentada",
+            "3% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Pureza",
+        "english": "Purity",
+        "level": "69",
+        "sockets": "4",
+        "runes": [
+            "Jah",
+            "Ist",
+            "Shael",
+            "Zod"
+        ],
+        "type": [
+            "Todo tipo de escudos"
+        ],
+        "stats": [
+            "+55% posiblidad de bloqueo mayor",
+            "+15 vida tras cada muerte",
+            "50% recuperacion de impacto mas rápida",
+            "todas las resistencias +[30-50]%",
+            "10% posibilidad de lanzar el nivel 19 Escudo de huesos al recibir un golpe",
+            "35% posibilidad de lanzar el nivel 8 Visión borrosa al azotar",
+            "+[4-508] defensa (4.0 por nivel)"
+        ]
+    },
+    {
+        "name": "Razón",
+        "english": "Reason",
+        "level": "69",
+        "sockets": "4",
+        "runes": [
+            "Lum",
+            "Lum",
+            "Zod",
+            "Tir"
+        ],
+        "type": [
+            "Bastones"
+        ],
+        "stats": [
+            "+3 a los niveles de habilidad de la hechicera",
+            "+50% velocidad de lanzamiento mayor",
+            "Nivel 5 aura Meditación cuando esta equipado",
+            "3% a la experiencia obtenida",
+            "daño reducido en 20%",
+            "20% del daño infligido repercute en el maná",
+            "Habilidad aleatoria de hechicera a nivel 8"
+        ]
+    },
+    {
+        "name": "Cernunnos",
+        "english": "Cernunnos",
+        "level": "69",
+        "sockets": "2",
+        "runes": [
+            "Ven",
+            "Or"
+        ],
+        "type": [
+            "Cascos de Barbaro",
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "Nivel [11-15] aura Convicción cuando esta equipado",
+            "10% posibilidad de lanzar el nivel 30 Daño aumentado cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el frio en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Enemigo",
+        "english": "Enemigo",
+        "level": "69",
+        "sockets": "4",
+        "runes": [
+            "Ven",
+            "Ge",
+            "Eth",
+            "Tau"
+        ],
+        "type": [
+            "Cascos de Barbaro",
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "Nivel [11-20] aura Fuego sagrado cuando esta equipado",
+            "5% posibilidad de lanzar el nivel 30 Legion de arqueras cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el fuego en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Tentador",
+        "english": "Tentador",
+        "level": "69",
+        "sockets": "2",
+        "runes": [
+            "Ven",
+            "Noa"
+        ],
+        "type": [
+            "Cascos de Barbaro",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el frio en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Maligno",
+        "english": "Maligno",
+        "level": "69",
+        "sockets": "2",
+        "runes": [
+            "Ven",
+            "Vex"
+        ],
+        "type": [
+            "Cascos de Barbaro",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el rayo en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Asesino",
+        "english": "Asesino",
+        "level": "69",
+        "sockets": "2",
+        "runes": [
+            "Ven",
+            "Jah"
+        ],
+        "type": [
+            "Cascos de Barbaro",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el fuego en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Padre",
+        "english": "Padre",
+        "level": "69",
+        "sockets": "2",
+        "runes": [
+            "Ven",
+            "Leo"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Cascos de Barbaro"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+[2-4] a los niveles de habilidad del barbaro",
+            "+[100-255]% defensa perfeccionada",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "+40% velocidad de bloqueo mayor",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Principe",
+        "english": "Principe",
+        "level": "69",
+        "sockets": "3",
+        "runes": [
+            "Ven",
+            "Ber",
+            "Noa"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Cascos de Barbaro"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+[2-4] a los niveles de habilidad del barbaro",
+            "+[100-255]% defensa perfeccionada",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "20% recuperacion de impacto mas rápida",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Mentiras",
+        "english": "Mentiras",
+        "level": "69",
+        "sockets": "3",
+        "runes": [
+            "Ven",
+            "Beta",
+            "Zod"
+        ],
+        "type": [
+            "Hachas",
+            "Brazos de guerra",
+            "Cascos de Barbaro",
+            "Martillos",
+            "Espadas",
+            "Lanzas"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "+[200-300]% daño perfeccionado",
+            "+[2-254] daño máximo (2.0 por nivel)",
+            "Añade 40-100 de daño",
+            "50% velocidad de ataque aumentada",
+            "+3 a los niveles de habilidad del barbaro",
+            "10% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Mundo",
+        "english": "Mundo",
+        "level": "69",
+        "sockets": "4",
+        "runes": [
+            "Ven",
+            "Cap",
+            "Beta",
+            "Can"
+        ],
+        "type": [
+            "Hachas",
+            "Brazos de guerra",
+            "Cascos de Barbaro",
+            "Martillos",
+            "Espadas",
+            "Lanzas"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "Nivel 5 aura Fanatismo cuando esta equipado",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "+[200-320]% daño perfeccionado",
+            "+[6-8]% mana robado por impacto",
+            "el objetivo retrocede",
+            "40% velocidad de ataque aumentada"
+        ]
+    },
+    {
+        "name": "Hijo de la aurora",
+        "english": "Hijo de la aurora",
+        "level": "69",
+        "sockets": "5",
+        "runes": [
+            "Ven",
+            "Jah",
+            "Piscis",
+            "Vex",
+            "Ohm"
+        ],
+        "type": [
+            "Hachas",
+            "Brazos de guerra",
+            "Cascos de Barbaro",
+            "Martillos",
+            "Espadas",
+            "Lanzas"
+        ],
+        "stats": [
+            "50% posibilidad de lanzar el nivel 20 Confusión cuando mates un enemigo",
+            "Nivel 12 aura Convicción cuando esta equipado",
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "+[255-325]% daño perfeccionado",
+            "Ralentiza al Objetivo un [5-10]%",
+            "+33% posibilidad de azote mortal",
+            "ignorar defensa del objetivo"
+        ]
+    },
+    {
+        "name": "Pan",
+        "english": "Pan",
+        "level": "71",
+        "sockets": "2",
+        "runes": [
+            "Vir",
+            "Or"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del druida",
+            "Nivel [11-15] aura Convicción cuando esta equipado",
+            "10% posibilidad de lanzar el nivel 30 Daño aumentado cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el frio en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Priapo",
+        "english": "Priapo",
+        "level": "71",
+        "sockets": "4",
+        "runes": [
+            "Vir",
+            "Ge",
+            "Eth",
+            "Tau"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del druida",
+            "Nivel [11-20] aura Fuego sagrado cuando esta equipado",
+            "5% posibilidad de lanzar el nivel 30 Legion de arqueras cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el fuego en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Apolonius",
+        "english": "Apolonius",
+        "level": "71",
+        "sockets": "2",
+        "runes": [
+            "Vir",
+            "Noa"
+        ],
+        "type": [
+            "Peltas de Druida",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del druida",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el frio en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Zeus",
+        "english": "Zeus",
+        "level": "71",
+        "sockets": "2",
+        "runes": [
+            "Vir",
+            "Vex"
+        ],
+        "type": [
+            "Peltas de Druida",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del druida",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el rayo en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Hermes",
+        "english": "Hermes",
+        "level": "71",
+        "sockets": "2",
+        "runes": [
+            "Vir",
+            "Jah"
+        ],
+        "type": [
+            "Peltas de Druida",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del druida",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el fuego en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Dionisios",
+        "english": "Dionisios",
+        "level": "71",
+        "sockets": "2",
+        "runes": [
+            "Vir",
+            "Leo"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del druida",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+[2-4] para habilidades de Arco y ballesta (solo amazona)",
+            "+[100-255]% defensa perfeccionada",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "+40% velocidad de bloqueo mayor",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Dios del sol",
+        "english": "Dios del sol",
+        "level": "71",
+        "sockets": "3",
+        "runes": [
+            "Vir",
+            "Ber",
+            "Noa"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del druida",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+[2-4] para habilidades de Pasivas y mágicas (solo amazona)",
+            "+[100-255]% defensa perfeccionada",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "20% recuperacion de impacto mas rápida",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Siniestro",
+        "english": "Siniestro",
+        "level": "71",
+        "sockets": "3",
+        "runes": [
+            "Vir",
+            "Beta",
+            "Zod"
+        ],
+        "type": [
+            "Todo tipo de armas",
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del druida",
+            "+[200-300]% daño perfeccionado",
+            "+[2-254] daño máximo (2.0 por nivel)",
+            "Añade 40-100 de daño",
+            "50% velocidad de ataque aumentada",
+            "+3 para habilidades de Arco y ballesta (solo amazona)",
+            "10% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Machaca piedras",
+        "english": "Machaca piedras",
+        "level": "71",
+        "sockets": "4",
+        "runes": [
+            "Vir",
+            "Cap",
+            "Beta",
+            "Can"
+        ],
+        "type": [
+            "Todo tipo de armas",
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del druida",
+            "Nivel 5 aura Fanatismo cuando esta equipado",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "+[200-320]% daño perfeccionado",
+            "+[6-8]% mana robado por impacto",
+            "el objetivo retrocede",
+            "40% velocidad de ataque aumentada"
+        ]
+    },
+    {
+        "name": "Destruccion",
+        "english": "Destruccion",
+        "level": "71",
+        "sockets": "5",
+        "runes": [
+            "Vir",
+            "Jah",
+            "Piscis",
+            "Vex",
+            "Ohm"
+        ],
+        "type": [
+            "Todo tipo de armas",
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "50% posibilidad de lanzar el nivel 20 Confusión cuando mates un enemigo",
+            "Nivel 12 aura Convicción cuando esta equipado",
+            "+[1-3] a los niveles de habilidad del druida",
+            "+[255-325]% daño perfeccionado",
+            "Ralentiza al Objetivo un [5-10]%",
+            "+33% posibilidad de azote mortal",
+            "ignorar defensa del objetivo"
+        ]
+    },
+    {
+        "name": "Legion",
+        "english": "Legion",
+        "level": "73",
+        "sockets": "2",
+        "runes": [
+            "Win",
+            "Libra"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "50% posibilidad de lanzar el nivel 10 Espiritum al recibir un golpe",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+20 mana tras cada muerte",
+            "+30% velocidad de lanzamiento mayor",
+            "+[100-200]% defensa perfeccionada",
+            "+[2-206] mana (1.62 por nivel)",
+            "+[2-254] vitalidad (2.0 por nivel)"
+        ]
+    },
+    {
+        "name": "Sonidos",
+        "english": "Sonidos",
+        "level": "73",
+        "sockets": "4",
+        "runes": [
+            "Ta",
+            "Win",
+            "Ma",
+            "Lem"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "+1 a los niveles de habilidad del nigromante",
+            "Nivel [11-15] aura Convicción cuando esta equipado",
+            "no puede congelarse",
+            "25 a todos los atributos",
+            "+25% velocidad de lanzamiento mayor",
+            "11% a la experiencia obtenida",
+            "+[5-635]% defensa perfeccionada (5.0 por nivel)"
+        ]
+    },
+    {
+        "name": "Calipso",
+        "english": "Calipso",
+        "level": "73",
+        "sockets": "2",
+        "runes": [
+            "Win",
+            "Sur"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "12 a todos los atributos",
+            "25% Reanimarse como: Salamandra",
+            "+[1-2] a los niveles de habilidad del nigromante",
+            "Nivel [11-15] aura Meditación cuando esta equipado",
+            "+[1-159] mana (1.25 por nivel)",
+            "+[0-64] vida (0.5 por nivel)",
+            "Repara 1 de durabilidad cada 4 segundos"
+        ]
+    },
+    {
+        "name": "Apolo",
+        "english": "Apolo",
+        "level": "73",
+        "sockets": "2",
+        "runes": [
+            "Win",
+            "Ta"
+        ],
+        "type": [
+            "Varas",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "+12% velocidad de lanzamiento mayor",
+            "25% Reanimarse como: Sacasuma",
+            "todas las resistencias +[10-12]%",
+            "11% posibilidad de lanzar el nivel 15 Legion de arqueras al atacar",
+            "+[1-159] mana (1.25 por nivel)",
+            "+[0-64] vida (0.5 por nivel)",
+            "Nivel 15 Armadura helada (40 Cargas)"
+        ]
+    },
+    {
+        "name": "Cloris",
+        "english": "Cloris",
+        "level": "73",
+        "sockets": "2",
+        "runes": [
+            "Win",
+            "Mo"
+        ],
+        "type": [
+            "Varas",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "12 a todos los atributos",
+            "+[0-32]% bonificacion en el ataque (0.25 por nivel)",
+            "+[1-2] a los niveles de habilidad del nigromante",
+            "+[11-15] mana tras cada muerte",
+            "+[1-159] mana (1.25 por nivel)",
+            "+[0-64] vida (0.5 por nivel)",
+            "Repara 1 de durabilidad cada 4 segundos"
+        ]
+    },
+    {
+        "name": "Cinosura",
+        "english": "Cinosura",
+        "level": "73",
+        "sockets": "2",
+        "runes": [
+            "Win",
+            "Eld"
+        ],
+        "type": [
+            "Varas",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "12 a todos los atributos",
+            "-25% a la resistencia del enemigo al fuego",
+            "+[1-2] a los niveles de habilidad del nigromante",
+            "Nivel [11-15] aura Fuego sagrado cuando esta equipado",
+            "+[1-159] mana (1.25 por nivel)",
+            "+[0-64] vida (0.5 por nivel)",
+            "+150% daño a habilidades de fuego"
+        ]
+    },
+    {
+        "name": "Dafne",
+        "english": "Dafne",
+        "level": "73",
+        "sockets": "2",
+        "runes": [
+            "Win",
+            "Fal"
+        ],
+        "type": [
+            "Varas",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "+200% daño a habilidades de veneno",
+            "25% Reanimarse como: Gran Mago Sanakus",
+            "+[1-2] a los niveles de habilidad del nigromante",
+            "Nivel [11-15] aura Convicción cuando esta equipado",
+            "+[1-159] mana (1.25 por nivel)",
+            "+50% velocidad de lanzamiento mayor",
+            "añade 20 al daño de magia"
+        ]
+    },
+    {
+        "name": "Mara",
+        "english": "Mara",
+        "level": "75",
+        "sockets": "2",
+        "runes": [
+            "Xilion",
+            "Or"
+        ],
+        "type": [
+            "Escudos de paladín",
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del paladin",
+            "Nivel [11-15] aura Convicción cuando esta equipado",
+            "10% posibilidad de lanzar el nivel 30 Daño aumentado cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el frio en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Favonius",
+        "english": "Favonius",
+        "level": "75",
+        "sockets": "4",
+        "runes": [
+            "Xilion",
+            "Ge",
+            "Eth",
+            "Tau"
+        ],
+        "type": [
+            "Escudos de paladín",
+            "Armaduras de torso"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del paladin",
+            "Nivel [11-20] aura Fuego sagrado cuando esta equipado",
+            "5% posibilidad de lanzar el nivel 30 Legion de arqueras cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el fuego en [8-10]%",
+            "[10-30]% velocidad de ataque aumentada",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Arconi",
+        "english": "Arconi",
+        "level": "75",
+        "sockets": "2",
+        "runes": [
+            "Xilion",
+            "Noa"
+        ],
+        "type": [
+            "Escudos de paladín",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del paladin",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el frio en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Baelisto",
+        "english": "Baelisto",
+        "level": "75",
+        "sockets": "2",
+        "runes": [
+            "Xilion",
+            "Vex"
+        ],
+        "type": [
+            "Escudos de paladín",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del paladin",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el rayo en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Anxo",
+        "english": "Anxo",
+        "level": "75",
+        "sockets": "2",
+        "runes": [
+            "Xilion",
+            "Jah"
+        ],
+        "type": [
+            "Escudos de paladín",
+            "Todo tipo de armaduras"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del paladin",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el fuego en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Masan",
+        "english": "Masan",
+        "level": "75",
+        "sockets": "2",
+        "runes": [
+            "Xilion",
+            "Leo"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Escudos de paladín"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del paladin",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+[2-4] a los niveles de habilidad del paladin",
+            "+[100-255]% defensa perfeccionada",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "+40% velocidad de bloqueo mayor",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Masani",
+        "english": "Masani",
+        "level": "75",
+        "sockets": "3",
+        "runes": [
+            "Xilion",
+            "Ber",
+            "Noa"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Escudos de paladín"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del paladin",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+[2-4] a los niveles de habilidad del paladin",
+            "+[100-255]% defensa perfeccionada",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "20% recuperacion de impacto mas rápida",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Muroni",
+        "english": "Muroni",
+        "level": "75",
+        "sockets": "3",
+        "runes": [
+            "Xilion",
+            "Beta",
+            "Zod"
+        ],
+        "type": [
+            "Escudos de paladín",
+            "Martillos",
+            "Espadas",
+            "Mazas",
+            "Cetros"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del paladin",
+            "+[200-300]% daño perfeccionado",
+            "+[2-254] daño máximo (2.0 por nivel)",
+            "Añade 40-100 de daño",
+            "50% velocidad de ataque aumentada",
+            "+3 a los niveles de habilidad del paladin",
+            "10% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Nosferatus",
+        "english": "Nosferatus",
+        "level": "75",
+        "sockets": "4",
+        "runes": [
+            "Xilion",
+            "Cap",
+            "Beta",
+            "Can"
+        ],
+        "type": [
+            "Escudos de paladín",
+            "Martillos",
+            "Espadas",
+            "Mazas",
+            "Cetros"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del paladin",
+            "Nivel 5 aura Fanatismo cuando esta equipado",
+            "+[3-397] daño máximo (3.12 por nivel)",
+            "+[200-320]% daño perfeccionado",
+            "+[6-8]% mana robado por impacto",
+            "el objetivo retrocede",
+            "40% velocidad de ataque aumentada"
+        ]
+    },
+    {
+        "name": "Nosferatum",
+        "english": "Nosferatum",
+        "level": "75",
+        "sockets": "5",
+        "runes": [
+            "Xilion",
+            "Jah",
+            "Piscis",
+            "Vex",
+            "Ohm"
+        ],
+        "type": [
+            "Escudos de paladín",
+            "Martillos",
+            "Espadas",
+            "Mazas",
+            "Cetros"
+        ],
+        "stats": [
+            "50% posibilidad de lanzar el nivel 20 Confusión cuando mates un enemigo",
+            "Nivel 12 aura Convicción cuando esta equipado",
+            "+[1-3] a los niveles de habilidad del paladin",
+            "+[255-325]% daño perfeccionado",
+            "Ralentiza al Objetivo un [5-10]%",
+            "+33% posibilidad de azote mortal",
+            "ignorar defensa del objetivo"
+        ]
+    },
+    {
+        "name": "Artemisa",
+        "english": "Artemisa",
+        "level": "77",
+        "sockets": "2",
+        "runes": [
+            "Yevon",
+            "Or"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Orbes"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la hechicera",
+            "Nivel [11-15] aura Convicción cuando esta equipado",
+            "10% posibilidad de lanzar el nivel 30 Daño aumentado cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el frio en [8-10]%",
+            "+[10-30]% velocidad de lanzamiento mayor",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Circe",
+        "english": "Circe",
+        "level": "77",
+        "sockets": "4",
+        "runes": [
+            "Yevon",
+            "Ge",
+            "Eth",
+            "Shael"
+        ],
+        "type": [
+            "Armaduras de torso",
+            "Orbes"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la hechicera",
+            "Nivel [11-20] aura Meditación cuando esta equipado",
+            "5% posibilidad de lanzar el nivel 10 Legion de arqueras cuando mates un enemigo",
+            "+[150-255]% defensa perfeccionada",
+            "Absorbe el fuego en [8-10]%",
+            "+[10-30]% velocidad de lanzamiento mayor",
+            "[8-10]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Ninfa",
+        "english": "Ninfa",
+        "level": "77",
+        "sockets": "2",
+        "runes": [
+            "Yevon",
+            "Noa"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Orbes"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la hechicera",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el frio en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Fresnos",
+        "english": "Fresnos",
+        "level": "77",
+        "sockets": "2",
+        "runes": [
+            "Yevon",
+            "Vex"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Orbes"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la hechicera",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el rayo en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Meliades",
+        "english": "Meliades",
+        "level": "77",
+        "sockets": "2",
+        "runes": [
+            "Yevon",
+            "Jah"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Orbes"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la hechicera",
+            "[8-20] a todos los atributos",
+            "mata a los monstruos",
+            "Absorbe el fuego en [8-10]%",
+            "+[150-255]% defensa perfeccionada",
+            "daño reducido en [10-15]",
+            "+[100-200] fuerza"
+        ]
+    },
+    {
+        "name": "Urano",
+        "english": "Urano",
+        "level": "77",
+        "sockets": "2",
+        "runes": [
+            "Yevon",
+            "Leo"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Orbes"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la hechicera",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+[2-4] para habilidades de Fuego (solo hechicera)",
+            "+[100-255]% defensa perfeccionada",
+            "+[3-397] vitalidad (3.12 por nivel)",
+            "+40% velocidad de bloqueo mayor",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Nayades",
+        "english": "Nayades",
+        "level": "77",
+        "sockets": "3",
+        "runes": [
+            "Yevon",
+            "Ber",
+            "Noa"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Orbes"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la hechicera",
+            "Repara 1 de durabilidad cada 4 segundos",
+            "+[2-4] para habilidades de Relampago (solo hechicera)",
+            "+[100-255]% defensa perfeccionada",
+            "+[3-397] mana (3.12 por nivel)",
+            "20% recuperacion de impacto mas rápida",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Egina",
+        "english": "Egina",
+        "level": "77",
+        "sockets": "3",
+        "runes": [
+            "Yevon",
+            "Beta",
+            "Zod"
+        ],
+        "type": [
+            "Bastones",
+            "Orbes"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la hechicera",
+            "+[20-30]% velocidad de lanzamiento mayor",
+            "+[2-254]% de Probabilidad de Encontrar Objetos Mágicos (2.0 por nivel)",
+            "Añade 40-100 de daño",
+            "50% velocidad de ataque aumentada",
+            "+3 para habilidades de Arco y ballesta (solo amazona)",
+            "10% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Eaco",
+        "english": "Eaco",
+        "level": "77",
+        "sockets": "4",
+        "runes": [
+            "Yevon",
+            "Cap",
+            "Beta",
+            "Can"
+        ],
+        "type": [
+            "Bastones",
+            "Orbes"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la hechicera",
+            "Nivel 5 aura Fanatismo cuando esta equipado",
+            "+[3-397]% de Probabilidad de Encontrar Objetos Mágicos (3.12 por nivel)",
+            "regenerar maná [20-25]%",
+            "Absorbe el fuego en [6-8]%",
+            "Absorbe el rayo en [6-8]%",
+            "+40% velocidad de lanzamiento mayor"
+        ]
+    },
+    {
+        "name": "Taigete",
+        "english": "Taigete",
+        "level": "77",
+        "sockets": "4",
+        "runes": [
+            "Yevon",
+            "Jah",
+            "Piscis",
+            "Vex"
+        ],
+        "type": [
+            "Bastones",
+            "Orbes"
+        ],
+        "stats": [
+            "+[2-4] para habilidades de Arco y ballesta (solo amazona)",
+            "Nivel 12 aura Convicción cuando esta equipado",
+            "+[2-4] para habilidades de Pasivas y mágicas (solo amazona)",
+            "+[2-4] para habilidades de Javalina y lanza (solo amazona)",
+            "+[0-48] de fuerza (segun nivel del personaje)",
+            "33% recuperacion de impacto mas rápida",
+            "+100% mas posibilidades de conseguir un objeto mágico"
+        ]
+    },
+    {
+        "name": "Galatea",
+        "english": "Galatea",
+        "level": "79",
+        "sockets": "2",
+        "runes": [
+            "Gor",
+            "Ort"
+        ],
+        "type": [
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "25% Reanimarse como: Shanyzha",
+            "+20% velocidad de lanzamiento mayor",
+            "ignorar defensa del objetivo",
+            "+20% posiblidad de bloqueo mayor",
+            "Absorbe el fuego en 4%"
+        ]
+    },
+    {
+        "name": "Cariclo",
+        "english": "Cariclo",
+        "level": "79",
+        "sockets": "4",
+        "runes": [
+            "Gor",
+            "Or",
+            "Lo",
+            "Ko"
+        ],
+        "type": [
+            "Todo tipo de armaduras",
+            "Escudos de nigromante"
+        ],
+        "stats": [
+            "Nivel [11-15] aura Ola de frío sagrada cuando esta equipado",
+            "25% Reanimarse como: Conejito",
+            "+[12-15] para Misiles lentos",
+            "Aumenta la vida maxima 6%",
+            "aumenta el maná maximo [3-8]%",
+            "+2 a los niveles de habilidad del nigromante",
+            "+[200-255]% defensa perfeccionada"
+        ]
+    },
+    {
+        "name": "Baraeco",
+        "english": "Baraeco",
+        "level": "79",
+        "sockets": "4",
+        "runes": [
+            "Tau",
+            "Gor",
+            "Mis",
+            "Oma"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "+40% velocidad de bloqueo mayor",
+            "+[2-4] para habilidades de Javalina y lanza (solo amazona)",
+            "+[100-255]% defensa perfeccionada",
+            "+40% velocidad de bloqueo mayor",
+            "20% recuperacion de impacto mas rápida",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Dibus",
+        "english": "Dibus",
+        "level": "79",
+        "sockets": "5",
+        "runes": [
+            "Ber",
+            "Mal",
+            "Ber",
+            "Ist",
+            "Gor"
+        ],
+        "type": [
+            "Armas a distancia",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "50% posibilidad de lanzar el nivel 20 Cadena de relampagos cuando mates un enemigo",
+            "Nivel 12 aura Convicción cuando esta equipado",
+            "+[1-3] a los niveles de habilidad de la amazona",
+            "+[255-325]% daño perfeccionado",
+            "-55% a la resistencia del enemigo al rayo",
+            "+33% posibilidad de azote mortal",
+            "ignorar defensa del objetivo"
+        ]
+    },
+    {
+        "name": "Deabus",
+        "english": "Deabus",
+        "level": "79",
+        "sockets": "6",
+        "runes": [
+            "Vex",
+            "Hel",
+            "Cap",
+            "Leo",
+            "Gor",
+            "Eth"
+        ],
+        "type": [
+            "Armas a distancia",
+            "Arcos y lanzas de amazona"
+        ],
+        "stats": [
+            "60% velocidad de ataque aumentada",
+            "+125% daño a los muertos vivientes",
+            "[12-15]% vida robada por impacto",
+            "evita la curacion del monstruo",
+            "7% posibilidad de lanzar el nivel 20 Colision de fuego cuando mates un enemigo",
+            "+[350-400]% daño perfeccionado",
+            "30 a todos los atributos"
+        ]
+    },
+    {
+        "name": "Vael",
+        "english": "Vael",
+        "level": "79",
+        "sockets": "4",
+        "runes": [
+            "Umno",
+            "Gor",
+            "Mis",
+            "Oma"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "+40% velocidad de bloqueo mayor",
+            "+[2-4] a los niveles de habilidad de la asesina",
+            "+[100-255]% defensa perfeccionada",
+            "+40% velocidad de bloqueo mayor",
+            "20% recuperacion de impacto mas rápida",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Dios lobo",
+        "english": "Dios lobo",
+        "level": "79",
+        "sockets": "2",
+        "runes": [
+            "Umno",
+            "Gor"
+        ],
+        "type": [
+            "Armas de asesina"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la asesina",
+            "+[200-300]% daño perfeccionado",
+            "+50% bonificacion en el ataque",
+            "13% velocidad de ataque aumentada",
+            "+[2-4] para habilidades de Javalina y lanza (solo amazona)",
+            "Nivel 5 Revivir (30 Cargas)",
+            "+[2-190] daño máximo (1.5 por nivel)"
+        ]
+    },
+    {
+        "name": "Luguria",
+        "english": "Luguria",
+        "level": "79",
+        "sockets": "3",
+        "runes": [
+            "Umno",
+            "Ge",
+            "Gor"
+        ],
+        "type": [
+            "Armas de asesina"
+        ],
+        "stats": [
+            "60% velocidad de ataque aumentada",
+            "+125% daño a los muertos vivientes",
+            "[12-15]% vida robada por impacto",
+            "evita la curacion del monstruo",
+            "7% posibilidad de lanzar el nivel 20 Nova de impacto cuando mates un enemigo",
+            "+[350-400]% daño perfeccionado",
+            "30 a todos los atributos"
+        ]
+    },
+    {
+        "name": "Serpiente",
+        "english": "Serpiente",
+        "level": "79",
+        "sockets": "4",
+        "runes": [
+            "Ven",
+            "Gor",
+            "Mis",
+            "Oma"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Cascos de Barbaro"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "+40% velocidad de bloqueo mayor",
+            "+[2-4] a los niveles de habilidad del barbaro",
+            "+[100-255]% defensa perfeccionada",
+            "+40% velocidad de bloqueo mayor",
+            "20% recuperacion de impacto mas rápida",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Principio",
+        "english": "Principio",
+        "level": "79",
+        "sockets": "2",
+        "runes": [
+            "Ven",
+            "Gor"
+        ],
+        "type": [
+            "Hachas",
+            "Brazos de guerra",
+            "Cascos de Barbaro",
+            "Martillos",
+            "Espadas",
+            "Lanzas"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del barbaro",
+            "+[200-300]% daño perfeccionado",
+            "+50% bonificacion en el ataque",
+            "13% velocidad de ataque aumentada",
+            "+[2-4] para habilidades de Javalina y lanza (solo amazona)",
+            "Nivel 5 Revivir (30 Cargas)",
+            "+[2-190] daño máximo (1.5 por nivel)"
+        ]
+    },
+    {
+        "name": "Seol",
+        "english": "Seol",
+        "level": "79",
+        "sockets": "6",
+        "runes": [
+            "Ven",
+            "Ge",
+            "Gor",
+            "Vex",
+            "Ist",
+            "Can"
+        ],
+        "type": [
+            "Hachas",
+            "Brazos de guerra",
+            "Cascos de Barbaro",
+            "Martillos",
+            "Espadas",
+            "Lanzas"
+        ],
+        "stats": [
+            "60% velocidad de ataque aumentada",
+            "+[2-318]% daño mejorado (2.5 por nivel)",
+            "[12-15]% vida robada por impacto",
+            "evita la curacion del monstruo",
+            "7% posibilidad de lanzar el nivel 20 Esfinge cuando mates un enemigo",
+            "+[350-400]% daño perfeccionado",
+            "30 a todos los atributos"
+        ]
+    },
+    {
+        "name": "Mormo",
+        "english": "Mormo",
+        "level": "79",
+        "sockets": "4",
+        "runes": [
+            "Xilion",
+            "Gor",
+            "Mis",
+            "Oma"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Escudos de paladín"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del paladin",
+            "+40% velocidad de bloqueo mayor",
+            "+[2-4] a los niveles de habilidad del paladin",
+            "+[100-255]% defensa perfeccionada",
+            "+40% velocidad de bloqueo mayor",
+            "20% recuperacion de impacto mas rápida",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Mortal",
+        "english": "Mortal",
+        "level": "79",
+        "sockets": "2",
+        "runes": [
+            "Xilion",
+            "Gor"
+        ],
+        "type": [
+            "Escudos de paladín",
+            "Martillos",
+            "Espadas",
+            "Mazas",
+            "Cetros"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del paladin",
+            "+[200-300]% daño perfeccionado",
+            "+50% bonificacion en el ataque",
+            "13% velocidad de ataque aumentada",
+            "+[2-4] para habilidades de Javalina y lanza (solo amazona)",
+            "Nivel 5 Revivir (30 Cargas)",
+            "+[2-190] daño máximo (1.5 por nivel)"
+        ]
+    },
+    {
+        "name": "Disimulo",
+        "english": "Disimulo",
+        "level": "79",
+        "sockets": "6",
+        "runes": [
+            "Xilion",
+            "Ge",
+            "Gor",
+            "Vex",
+            "Ist",
+            "Can"
+        ],
+        "type": [
+            "Escudos de paladín",
+            "Martillos",
+            "Espadas",
+            "Cetros"
+        ],
+        "stats": [
+            "60% velocidad de ataque aumentada",
+            "+[2-318]% daño mejorado (2.5 por nivel)",
+            "[12-15]% vida robada por impacto",
+            "evita la curacion del monstruo",
+            "7% posibilidad de lanzar el nivel 20 Esfinge cuando mates un enemigo",
+            "+[350-400]% daño perfeccionado",
+            "30 a todos los atributos"
+        ]
+    },
+    {
+        "name": "Nereidas",
+        "english": "Nereidas",
+        "level": "79",
+        "sockets": "4",
+        "runes": [
+            "Yevon",
+            "Gor",
+            "Mis",
+            "Oma"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Orbes"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la hechicera",
+            "+40% velocidad de bloqueo mayor",
+            "+[2-4] para habilidades de Frio (solo hechicera)",
+            "+[100-255]% defensa perfeccionada",
+            "+40% velocidad de bloqueo mayor",
+            "20% recuperacion de impacto mas rápida",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Alseides",
+        "english": "Alseides",
+        "level": "79",
+        "sockets": "2",
+        "runes": [
+            "Yevon",
+            "Gor"
+        ],
+        "type": [
+            "Bastones",
+            "Orbes"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad de la hechicera",
+            "+[20-30]% velocidad de lanzamiento mayor",
+            "+50% bonificacion en el ataque",
+            "13% velocidad de ataque aumentada",
+            "+[2-4] para habilidades de Javalina y lanza (solo amazona)",
+            "Nivel 5 Revivir (30 Cargas)",
+            "+[2-190] daño máximo (1.5 por nivel)"
+        ]
+    },
+    {
+        "name": "Dale ostias",
+        "english": "Dale ostias",
+        "level": "79",
+        "sockets": "4",
+        "runes": [
+            "Yevon",
+            "Ge",
+            "Gor",
+            "Vex"
+        ],
+        "type": [
+            "Bastones",
+            "Orbes"
+        ],
+        "stats": [
+            "60% velocidad de ataque aumentada",
+            "+[2-318]% de Probabilidad de Encontrar Objetos Mágicos (2.5 por nivel)",
+            "[12-15]% vida robada por impacto",
+            "evita la curacion del monstruo",
+            "7% posibilidad de lanzar el nivel 20 Esfinge cuando mates un enemigo",
+            "+[350-400]% daño perfeccionado",
+            "30 a todos los atributos"
+        ]
+    },
+    {
+        "name": "Arte",
+        "english": "Arte",
+        "level": "79",
+        "sockets": "4",
+        "runes": [
+            "Vir",
+            "Gor",
+            "Mis",
+            "Oma"
+        ],
+        "type": [
+            "Todo tipo de escudos",
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del druida",
+            "+40% velocidad de bloqueo mayor",
+            "+[2-4] para habilidades de Javalina y lanza (solo amazona)",
+            "+[100-255]% defensa perfeccionada",
+            "+40% velocidad de bloqueo mayor",
+            "20% recuperacion de impacto mas rápida",
+            "[8-15]% a la experiencia obtenida"
+        ]
+    },
+    {
+        "name": "Mistico",
+        "english": "Mistico",
+        "level": "79",
+        "sockets": "2",
+        "runes": [
+            "Vir",
+            "Gor"
+        ],
+        "type": [
+            "Todo tipo de armas",
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "+[1-3] a los niveles de habilidad del druida",
+            "+[200-300]% daño perfeccionado",
+            "+50% bonificacion en el ataque",
+            "13% velocidad de ataque aumentada",
+            "+[2-4] para habilidades de Javalina y lanza (solo amazona)",
+            "Nivel 5 Revivir (30 Cargas)",
+            "+[2-190] daño máximo (1.5 por nivel)"
+        ]
+    },
+    {
+        "name": "Insolencia",
+        "english": "Insolencia",
+        "level": "79",
+        "sockets": "6",
+        "runes": [
+            "Vir",
+            "Ge",
+            "Gor",
+            "Vex",
+            "Ist",
+            "Can"
+        ],
+        "type": [
+            "Todo tipo de armas",
+            "Peltas de Druida"
+        ],
+        "stats": [
+            "60% velocidad de ataque aumentada",
+            "+[2-318]% daño mejorado (2.5 por nivel)",
+            "[12-15]% vida robada por impacto",
+            "evita la curacion del monstruo",
+            "7% posibilidad de lanzar el nivel 20 Esfinge cuando mates un enemigo",
+            "+[350-400]% daño perfeccionado",
+            "30 a todos los atributos"
+        ]
+    }
+]

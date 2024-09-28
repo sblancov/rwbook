@@ -1,0 +1,30 @@
+.card {
+    margin: 10px;
+    width: 420px;
+}
+
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.frame {
+    border: solid 3px #88673a;
+    color: #aaa;
+    background-color: #1e1e1e;
+    background-repeat: repeat;
+    background-size: 55em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+td.level {
+    text-align: center;
+}
+
+table > tr > td {
+    vertical-align: baseline;
+}

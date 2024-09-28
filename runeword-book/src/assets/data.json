@@ -1,0 +1,36 @@
+[
+    {
+        "spanishName": "Ley",
+        "englishName": "Law",
+        "runes": [
+            "Hel",
+            "Hel"
+        ],
+        "attributes": [
+            "Aumenta los requisitos de nivel en 26",
+            "+[120-170]% daño perfeccionado",
+            "15% velocidad de ataque aumentada",
+            "48 vida",
+            "24 maná",
+            "Ralentiza al Objetivo un 30%",
+            "Mata a los monstruos"
+        ]
+    },
+    {
+        "spanishName": "Saber",
+        "englishName": "Thirst for Knowledge",
+        "runes": [
+            "El",
+            "El",
+            "El"
+        ],
+        "attributes": [
+            "+100% daño perfeccionado",
+            "+[2-190] daño máximo (1.5 por nivel)",
+            "20% a la experiencia obtenida",
+            "+1 a todas las habilidades",
+            "15% velocidad de ataque aumentada",
+            "Aumenta los requisitos de nivel en 11"
+        ]
+    }
+]
