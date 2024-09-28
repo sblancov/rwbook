@@ -5,6 +5,12 @@
         <mat-icon matSuffix>search</mat-icon>
         <mat-hint>Type a part of the name or attribute</mat-hint>
     </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Level</mat-label>
+        <input matInput placeholder="Level" type="number" #level (input)="filterLevel(level.value)">
+        <mat-icon matSuffix>search</mat-icon>
+        <mat-hint>Select the max level</mat-hint>
+    </mat-form-field>
 </div>
 
 <div>

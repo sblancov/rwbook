@@ -17,14 +17,18 @@
     background-size: 55em;
 }
 
-ul {
-    list-style-type: none;
+table {
+    width: 100%;
+}
+
+table > tr > td {
+    vertical-align: baseline;
 }
 
 td.level {
     text-align: center;
 }
 
-table > tr > td {
-    vertical-align: baseline;
+ul {
+    list-style-type: none;
 }

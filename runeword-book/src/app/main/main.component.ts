@@ -62,7 +62,15 @@ export class MainComponent {
       || runeword?.stats.some((value) => this.compare(value, text))
     );
   }
-
+  filterLevel (max_level: string) {
+    if (!max_level || Number(max_level) < 10) {
+      this.filtered_runewords = this.runewords;
+      return;
+    }
+    this.filtered_runewords = this.runewords.filter((runeword) =>
+      runeword.level <= max_level
+    );
+  }
   changeMode (mode: string) {
     this.visualization_mode = mode;
   }
