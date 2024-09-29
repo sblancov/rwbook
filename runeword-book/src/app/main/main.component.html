@@ -1,16 +1,45 @@
-<div>
+<div class="filters">
     <mat-form-field appearance="fill">
-        <mat-label>Search</mat-label>
-        <input matInput placeholder="Search" #filter (input)="filterResults(filter.value)">
-        <mat-icon matSuffix>search</mat-icon>
-        <mat-hint>Type a part of the name or attribute</mat-hint>
+        <mat-label>Nombre o atributo</mat-label>
+        <input
+            matInput
+            placeholder="Search"
+            [(ngModel)]="searchText"
+        >
     </mat-form-field>
     <mat-form-field appearance="fill">
-        <mat-label>Level</mat-label>
-        <input matInput placeholder="Level" type="number" #level (input)="filterLevel(level.value)">
-        <mat-icon matSuffix>search</mat-icon>
-        <mat-hint>Select the max level</mat-hint>
+        <mat-label>Nivel Máximo</mat-label>
+        <input
+            matInput
+            placeholder="Level"
+            type="number"
+            [(ngModel)]="maxLevel"
+        >
     </mat-form-field>
+    <mat-form-field appearance="fill">
+        <mat-label>Tipo de objeto</mat-label>
+        <input
+            matInput
+            placeholder="Item Type"
+            [(ngModel)]="itemType"
+        >
+    </mat-form-field>
+    <button
+        mat-stroked-button
+        title="Filtrar"
+        (click)="filter()"
+    >
+        <mat-icon>filter_alt</mat-icon>
+        Filter
+    </button>
+    <button
+        mat-stroked-button
+        title="Clear"
+        (click)="clear()"
+    >
+        <mat-icon>clear</mat-icon>
+        Clear
+    </button>
 </div>
 
 <div>
@@ -30,12 +59,11 @@
     </button>
 </div>
 
-@if (visualization_mode == 'table') {
+@if (visualizationMode == 'table') {
     <table class="table is-narrow is-hoverable frame">
         <tr>
-            <th>Name</th>
+            <th class="name">Name</th>
             <th>Runes</th>
-            <th>Level</th>
             <th>Items</th>
             <th>Attributes</th>
         </tr>
@@ -49,6 +77,10 @@
                     <li>
                         {{ runeword.english }}
                     </li>
+                    <li><br></li>
+                    <li>
+                        level: {{runeword.level}}
+                    </li>
                 </ul>
             </td>
             <td class="runes">
@@ -57,9 +89,6 @@
                     <li>{{ rune }}</li>
                 }
                 </ul>
-            </td>
-            <td class="level">
-                {{runeword.level}}
             </td>
             <td>
                 <ul>
@@ -80,7 +109,7 @@
     </table>
 }
 
-@if (visualization_mode == 'cards') {
+@if (visualizationMode == 'cards') {
     <div class="card-container">
         @for (runeword of filtered_runewords; track $index) {
             <mat-card class="card" appearance="outlined">

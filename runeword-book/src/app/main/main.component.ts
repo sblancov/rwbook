@@ -6,6 +6,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import {MatButtonModule} from '@angular/material/button';
 
 
 export interface Runeword {
@@ -27,7 +28,8 @@ export interface Runeword {
     FormsModule,
     MatIconModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    MatButtonModule
   ],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css'
@@ -35,12 +37,18 @@ export interface Runeword {
 export class MainComponent {
   runewords: Runeword[] = [];
   filtered_runewords: Runeword[] = [];
-  visualization_mode: string = "cards";
+  searchText: string = "";
+  maxLevel: string = "";
+  itemType: string = "";
+  visualizationMode: string = "cards";
 
   constructor() {
     this.runewords = data as Runeword[];
     this.filtered_runewords = this.runewords;
-    this.visualization_mode = "cards";
+    this.visualizationMode = "cards";
+    this.searchText = "";
+    this.maxLevel = "";
+    this.itemType = "";
   }
 
   normalize(text: string): string {
@@ -51,27 +59,42 @@ export class MainComponent {
     return this.normalize(input).includes(this.normalize(text));
   }
 
-  filterResults (text: string) {
-    if (!text) {
+  filter () {
+    if (!this.searchText && !this.maxLevel && !this.itemType) {
       this.filtered_runewords = this.runewords;
       return;
     }
-    this.filtered_runewords = this.runewords.filter((runeword) =>
-      this.compare(runeword?.name, text)
-      || this.compare(runeword?.english, text)
-      || runeword?.stats.some((value) => this.compare(value, text))
-    );
-  }
-  filterLevel (max_level: string) {
-    if (!max_level || Number(max_level) < 10) {
-      this.filtered_runewords = this.runewords;
-      return;
+    // Name and attributes
+    this.filtered_runewords = this.runewords
+    if (this.searchText) {
+      this.filtered_runewords = this.filtered_runewords.filter((runeword) =>
+        this.compare(runeword?.name, this.searchText)
+        || this.compare(runeword?.english, this.searchText)
+        || runeword?.stats.some((value) => this.compare(value, this.searchText))
+      );
     }
-    this.filtered_runewords = this.runewords.filter((runeword) =>
-      runeword.level <= max_level
-    );
+    // Max Level
+    if (this.maxLevel) {
+      this.filtered_runewords = this.filtered_runewords.filter((runeword) =>
+        runeword.level <= this.maxLevel
+      );
+    }
+    // Item Type
+    if (this.itemType) {
+      this.filtered_runewords = this.filtered_runewords.filter((runeword) =>
+        runeword?.type.some((value) => this.compare(value, this.itemType))
+      );
+    }
   }
+
   changeMode (mode: string) {
-    this.visualization_mode = mode;
+    this.visualizationMode = mode;
+  }
+
+  clear () {
+    this.searchText = "";
+    this.maxLevel = "";
+    this.itemType = "";
+    this.filtered_runewords = this.runewords;
   }
 }
