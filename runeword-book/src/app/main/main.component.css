@@ -17,8 +17,12 @@
     background-size: 55em;
 }
 
+.main {
+    margin: 10px;
+}
 table {
-    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
 }
 
 table > tr > td {
@@ -27,6 +31,10 @@ table > tr > td {
 
 td.level {
     text-align: center;
+}
+
+.name {
+        width: 200px;
 }
 
 ul {

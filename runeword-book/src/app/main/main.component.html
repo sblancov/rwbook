@@ -1,141 +1,143 @@
-<div class="filters">
-    <mat-form-field appearance="fill">
-        <mat-label>Nombre o atributo</mat-label>
-        <input
-            matInput
-            placeholder="Search"
-            [(ngModel)]="searchText"
+<div class="main">
+    <div class="filters">
+        <mat-form-field appearance="fill">
+            <mat-label>Nombre o atributo</mat-label>
+            <input
+                matInput
+                placeholder="Search"
+                [(ngModel)]="searchText"
+            >
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Nivel Máximo</mat-label>
+            <input
+                matInput
+                placeholder="Level"
+                type="number"
+                [(ngModel)]="maxLevel"
+            >
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Tipo de objeto</mat-label>
+            <input
+                matInput
+                placeholder="Item Type"
+                [(ngModel)]="itemType"
+            >
+        </mat-form-field>
+        <button
+            mat-stroked-button
+            title="Filtrar"
+            (click)="filter()"
         >
-    </mat-form-field>
-    <mat-form-field appearance="fill">
-        <mat-label>Nivel Máximo</mat-label>
-        <input
-            matInput
-            placeholder="Level"
-            type="number"
-            [(ngModel)]="maxLevel"
+            <mat-icon>filter_alt</mat-icon>
+            Filter
+        </button>
+        <button
+            mat-stroked-button
+            title="Clear"
+            (click)="clear()"
         >
-    </mat-form-field>
-    <mat-form-field appearance="fill">
-        <mat-label>Tipo de objeto</mat-label>
-        <input
-            matInput
-            placeholder="Item Type"
-            [(ngModel)]="itemType"
+            <mat-icon>clear</mat-icon>
+            Clear
+        </button>
+    </div>
+
+    <div class="visualizationSelector">
+        <button
+            mat-mini-fab
+            title="Table visualization"
+            (click)="changeMode('table')"
         >
-    </mat-form-field>
-    <button
-        mat-stroked-button
-        title="Filtrar"
-        (click)="filter()"
-    >
-        <mat-icon>filter_alt</mat-icon>
-        Filter
-    </button>
-    <button
-        mat-stroked-button
-        title="Clear"
-        (click)="clear()"
-    >
-        <mat-icon>clear</mat-icon>
-        Clear
-    </button>
-</div>
+            <mat-icon>view_list</mat-icon>
+        </button>
+        <button
+            mat-mini-fab
+            title="Cards visualization"
+            (click)="changeMode('cards')"
+        >
+            <mat-icon>grid_view</mat-icon>
+        </button>
+    </div>
 
-<div>
-    <button
-        mat-mini-fab
-        title="Table visualization"
-        (click)="changeMode('table')"
-    >
-        <mat-icon>view_list</mat-icon>
-    </button>
-    <button
-        mat-mini-fab
-        title="Cards visualization"
-        (click)="changeMode('cards')"
-    >
-        <mat-icon>grid_view</mat-icon>
-    </button>
-</div>
-
-@if (visualizationMode == 'table') {
-    <table class="table is-narrow is-hoverable frame">
-        <tr>
-            <th class="name">Name</th>
-            <th>Runes</th>
-            <th>Items</th>
-            <th>Attributes</th>
-        </tr>
-    @for (runeword of filtered_runewords; track $index) {
-        <tr>
-            <td>
-                <ul>
-                    <li>
-                        {{ runeword.name }}
-                    </li>
-                    <li>
-                        {{ runeword.english }}
-                    </li>
-                    <li><br></li>
-                    <li>
-                        level: {{runeword.level}}
-                    </li>
-                </ul>
-            </td>
-            <td class="runes">
-                <ul>
-                @for (rune of runeword.runes; track $index) {
-                    <li>{{ rune }}</li>
-                }
-                </ul>
-            </td>
-            <td>
-                <ul>
-                @for (attribute of runeword.type; track $index) {
-                    <li>{{ attribute }}</li>
-                }
-                </ul>
-            </td>
-            <td>
-                <ul>
-                @for (attribute of runeword.stats; track $index) {
-                    <li>{{ attribute }}</li>
-                }
-                </ul>
-            </td>
-        </tr>
-    }
-    </table>
-}
-
-@if (visualizationMode == 'cards') {
-    <div class="card-container">
+    @if (visualizationMode == 'table') {
+        <table class="table is-narrow is-hoverable frame">
+            <tr>
+                <th class="name">Name</th>
+                <th>Runes</th>
+                <th>Items</th>
+                <th>Attributes</th>
+            </tr>
         @for (runeword of filtered_runewords; track $index) {
-            <mat-card class="card" appearance="outlined">
-                <mat-card-header>
-                    <mat-card-title-group>
-                        <mat-card-title>{{ runeword.name }}</mat-card-title>
-                        <mat-card-subtitle>{{ runeword.english }}</mat-card-subtitle>
-                        @for (rune of runeword.runes; track $index) {
-                            {{ rune }}
-                        }
-                    </mat-card-title-group>
-                </mat-card-header>
-                <mat-card-content>
-                    level: {{runeword.level}}
+            <tr>
+                <td>
+                    <ul>
+                        <li>
+                            {{ runeword.name }}
+                        </li>
+                        <li>
+                            {{ runeword.english }}
+                        </li>
+                        <li><br></li>
+                        <li>
+                            level: {{runeword.level}}
+                        </li>
+                    </ul>
+                </td>
+                <td class="runes">
+                    <ul>
+                    @for (rune of runeword.runes; track $index) {
+                        <li>{{ rune }}</li>
+                    }
+                    </ul>
+                </td>
+                <td>
                     <ul>
                     @for (attribute of runeword.type; track $index) {
                         <li>{{ attribute }}</li>
                     }
                     </ul>
+                </td>
+                <td>
                     <ul>
                     @for (attribute of runeword.stats; track $index) {
                         <li>{{ attribute }}</li>
                     }
                     </ul>
-                </mat-card-content>
-            </mat-card>
+                </td>
+            </tr>
         }
-    </div>
-}
+        </table>
+    }
+
+    @if (visualizationMode == 'cards') {
+        <div class="card-container">
+            @for (runeword of filtered_runewords; track $index) {
+                <mat-card class="card" appearance="outlined">
+                    <mat-card-header>
+                        <mat-card-title-group>
+                            <mat-card-title>{{ runeword.name }}</mat-card-title>
+                            <mat-card-subtitle>{{ runeword.english }}</mat-card-subtitle>
+                            @for (rune of runeword.runes; track $index) {
+                                {{ rune }}
+                            }
+                        </mat-card-title-group>
+                    </mat-card-header>
+                    <mat-card-content>
+                        level: {{runeword.level}}
+                        <ul>
+                        @for (attribute of runeword.type; track $index) {
+                            <li>{{ attribute }}</li>
+                        }
+                        </ul>
+                        <ul>
+                        @for (attribute of runeword.stats; track $index) {
+                            <li>{{ attribute }}</li>
+                        }
+                        </ul>
+                    </mat-card-content>
+                </mat-card>
+            }
+        </div>
+    }
+</div>
