@@ -7,3 +7,8 @@ export interface Runeword {
     type: string[];
     stats: string[];
   }
+
+export enum VisualizationMode {
+  cards = "cards",
+  table = "table"
+}

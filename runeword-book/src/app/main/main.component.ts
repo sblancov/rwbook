@@ -1,5 +1,5 @@
 import data from '../../assets/runewords.json';
-import { Runeword } from '../runeword';
+import { Runeword, VisualizationMode } from '../runeword';
 import { RwTableComponent } from '../rw-table/rw-table.component';
 import { RwCardsComponent } from '../rw-cards/rw-cards.component';
 import {VisualizationSelectorComponent} from '../visualization-selector/visualization-selector.component';
@@ -35,12 +35,12 @@ export class MainComponent {
   searchText: string = "";
   maxLevel: string = "";
   itemType: string = "";
-  visualizationMode: string = "table";
+  visualizationMode: string;
 
   constructor() {
     this.runewords = data as Runeword[];
     this.filtered_runewords = this.runewords;
-    this.visualizationMode = "table";
+    this.visualizationMode = VisualizationMode.table.toString();
     this.searchText = "";
     this.maxLevel = "";
     this.itemType = "";

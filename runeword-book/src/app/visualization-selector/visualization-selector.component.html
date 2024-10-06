@@ -1,16 +1,14 @@
-<div class="visualizationSelector">
-    <button
-        mat-mini-fab
+<mat-button-toggle-group #group="matButtonToggleGroup" [value]="initialMode" (change)="onChangeMode(group.value)">
+    <mat-button-toggle
         title="Table visualization"
-        (click)="changeMode('table')"
+        value="table"
     >
-        <mat-icon>view_list</mat-icon>
-    </button>
-    <button
-        mat-mini-fab
+        Table
+    </mat-button-toggle>
+    <mat-button-toggle
         title="Cards visualization"
-        (click)="changeMode('cards')"
+        value="cards"
     >
-        <mat-icon>grid_view</mat-icon>
-    </button>
-</div>
+        Cards
+    </mat-button-toggle>
+</mat-button-toggle-group>

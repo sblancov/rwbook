@@ -1,49 +1,54 @@
 <div class="main">
-    <div class="filters">
-        <mat-form-field appearance="fill">
-            <mat-label>Nombre o atributo</mat-label>
-            <input
-                matInput
-                placeholder="Search"
-                [(ngModel)]="searchText"
+    <div class="operations">
+        <div class="filters">
+            <mat-form-field appearance="fill">
+                <mat-label>Nombre o atributo</mat-label>
+                <input
+                    matInput
+                    placeholder="Search"
+                    [(ngModel)]="searchText"
+                >
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Nivel Máximo</mat-label>
+                <input
+                    matInput
+                    placeholder="Level"
+                    type="number"
+                    [(ngModel)]="maxLevel"
+                >
+            </mat-form-field>
+            <mat-form-field appearance="fill">
+                <mat-label>Tipo de objeto</mat-label>
+                <input
+                    matInput
+                    placeholder="Item Type"
+                    [(ngModel)]="itemType"
+                >
+            </mat-form-field>
+            <button
+                mat-stroked-button
+                title="Filtrar"
+                (click)="filter()"
             >
-        </mat-form-field>
-        <mat-form-field appearance="fill">
-            <mat-label>Nivel Máximo</mat-label>
-            <input
-                matInput
-                placeholder="Level"
-                type="number"
-                [(ngModel)]="maxLevel"
+                <mat-icon>filter_alt</mat-icon>
+                Filter
+            </button>
+            <button
+                mat-stroked-button
+                title="Clear"
+                (click)="clear()"
             >
-        </mat-form-field>
-        <mat-form-field appearance="fill">
-            <mat-label>Tipo de objeto</mat-label>
-            <input
-                matInput
-                placeholder="Item Type"
-                [(ngModel)]="itemType"
-            >
-        </mat-form-field>
-        <button
-            mat-stroked-button
-            title="Filtrar"
-            (click)="filter()"
-        >
-            <mat-icon>filter_alt</mat-icon>
-            Filter
-        </button>
-        <button
-            mat-stroked-button
-            title="Clear"
-            (click)="clear()"
-        >
-            <mat-icon>clear</mat-icon>
-            Clear
-        </button>
-    </div>
+                <mat-icon>clear</mat-icon>
+                Clear
+            </button>
+        </div>
 
-    <visualization-selector (onVisualizationSelection)="changeMode($event)"></visualization-selector>
+        <visualization-selector
+            (onVisualizationSelection)="changeMode($event)"
+            [initialMode]="visualizationMode"
+        ></visualization-selector>
+    </div>
 
     @if (visualizationMode == 'table') {
         <rw-table [runewords]="filtered_runewords"></rw-table>

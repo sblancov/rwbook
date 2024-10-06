@@ -1,3 +1,13 @@
 .main {
     margin: 10px;
 }
+
+.operations {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.filters button {
+    vertical-align: baseline;
+}
