@@ -29,3 +29,7 @@ This guide consider you have Debian.
     ng serve
 
 Then, access to http://localhost:4200
+
+## Create new Angular component
+
+    ng generate component <name>
