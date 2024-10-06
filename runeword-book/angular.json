@@ -93,7 +93,11 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/rwbook/",
+            "repo": "https://github.com/sblancov/rwbook.git"
+          }
         }
       }
     }
