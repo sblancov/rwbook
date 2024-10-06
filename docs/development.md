@@ -33,3 +33,9 @@ Then, access to http://localhost:4200
 ## Create new Angular component
 
     ng generate component <name>
+
+## Store your secrets
+
+Do it in a password store like keepassxc and the retrieve the password like so:
+
+    keepassxc-cli show <database> <key> -a Password
