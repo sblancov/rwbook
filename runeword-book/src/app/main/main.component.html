@@ -43,101 +43,13 @@
         </button>
     </div>
 
-    <div class="visualizationSelector">
-        <button
-            mat-mini-fab
-            title="Table visualization"
-            (click)="changeMode('table')"
-        >
-            <mat-icon>view_list</mat-icon>
-        </button>
-        <button
-            mat-mini-fab
-            title="Cards visualization"
-            (click)="changeMode('cards')"
-        >
-            <mat-icon>grid_view</mat-icon>
-        </button>
-    </div>
+    <visualization-selector (onVisualizationSelection)="changeMode($event)"></visualization-selector>
 
     @if (visualizationMode == 'table') {
-        <table class="table is-narrow is-hoverable frame">
-            <tr>
-                <th class="name">Name</th>
-                <th>Runes</th>
-                <th>Items</th>
-                <th>Attributes</th>
-            </tr>
-        @for (runeword of filtered_runewords; track $index) {
-            <tr>
-                <td>
-                    <ul>
-                        <li>
-                            {{ runeword.name }}
-                        </li>
-                        <li>
-                            {{ runeword.english }}
-                        </li>
-                        <li><br></li>
-                        <li>
-                            level: {{runeword.level}}
-                        </li>
-                    </ul>
-                </td>
-                <td class="runes">
-                    <ul>
-                    @for (rune of runeword.runes; track $index) {
-                        <li>{{ rune }}</li>
-                    }
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                    @for (attribute of runeword.type; track $index) {
-                        <li>{{ attribute }}</li>
-                    }
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                    @for (attribute of runeword.stats; track $index) {
-                        <li>{{ attribute }}</li>
-                    }
-                    </ul>
-                </td>
-            </tr>
-        }
-        </table>
+        <rw-table [runewords]="filtered_runewords"></rw-table>
     }
 
     @if (visualizationMode == 'cards') {
-        <div class="card-container">
-            @for (runeword of filtered_runewords; track $index) {
-                <mat-card class="card" appearance="outlined">
-                    <mat-card-header>
-                        <mat-card-title-group>
-                            <mat-card-title>{{ runeword.name }}</mat-card-title>
-                            <mat-card-subtitle>{{ runeword.english }}</mat-card-subtitle>
-                            @for (rune of runeword.runes; track $index) {
-                                {{ rune }}
-                            }
-                        </mat-card-title-group>
-                    </mat-card-header>
-                    <mat-card-content>
-                        level: {{runeword.level}}
-                        <ul>
-                        @for (attribute of runeword.type; track $index) {
-                            <li>{{ attribute }}</li>
-                        }
-                        </ul>
-                        <ul>
-                        @for (attribute of runeword.stats; track $index) {
-                            <li>{{ attribute }}</li>
-                        }
-                        </ul>
-                    </mat-card-content>
-                </mat-card>
-            }
-        </div>
+        <rw-cards [runewords]="filtered_runewords"></rw-cards>
     }
 </div>

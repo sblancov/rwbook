@@ -1,0 +1,47 @@
+<table class="table is-narrow is-hoverable frame">
+    <tr>
+        <th class="name">Name</th>
+        <th>Runes</th>
+        <th>Items</th>
+        <th>Attributes</th>
+    </tr>
+@for (runeword of runewords; track $index) {
+    <tr>
+        <td>
+            <ul>
+                <li>
+                    {{ runeword.name }}
+                </li>
+                <li>
+                    {{ runeword.english }}
+                </li>
+                <li><br></li>
+                <li>
+                    level: {{runeword.level}}
+                </li>
+            </ul>
+        </td>
+        <td class="runes">
+            <ul>
+            @for (rune of runeword.runes; track $index) {
+                <li>{{ rune }}</li>
+            }
+            </ul>
+        </td>
+        <td>
+            <ul>
+            @for (attribute of runeword.type; track $index) {
+                <li>{{ attribute }}</li>
+            }
+            </ul>
+        </td>
+        <td>
+            <ul>
+            @for (attribute of runeword.stats; track $index) {
+                <li>{{ attribute }}</li>
+            }
+            </ul>
+        </td>
+    </tr>
+}
+</table>

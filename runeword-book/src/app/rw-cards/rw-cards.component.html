@@ -1,0 +1,28 @@
+<div class="card-container">
+    @for (runeword of runewords; track $index) {
+        <mat-card class="card" appearance="outlined">
+            <mat-card-header>
+                <mat-card-title-group>
+                    <mat-card-title>{{ runeword.name }}</mat-card-title>
+                    <mat-card-subtitle>{{ runeword.english }}</mat-card-subtitle>
+                    @for (rune of runeword.runes; track $index) {
+                        {{ rune }}
+                    }
+                </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+                level: {{runeword.level}}
+                <ul>
+                @for (attribute of runeword.type; track $index) {
+                    <li>{{ attribute }}</li>
+                }
+                </ul>
+                <ul>
+                @for (attribute of runeword.stats; track $index) {
+                    <li>{{ attribute }}</li>
+                }
+                </ul>
+            </mat-card-content>
+        </mat-card>
+    }
+</div>

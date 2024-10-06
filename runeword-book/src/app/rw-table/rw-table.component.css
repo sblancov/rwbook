@@ -1,0 +1,25 @@
+table.frame {
+    min-width: 100%;
+    max-width: 100%;
+    border: solid 3px #88673a;
+    color: #aaa;
+    background-color: #1e1e1e;
+    background-repeat: repeat;
+    background-size: 55em;
+}
+
+table > tr > td {
+    vertical-align: baseline;
+}
+
+td.level {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.name {
+    width: 200px;
+}

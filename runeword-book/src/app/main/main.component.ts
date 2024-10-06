@@ -1,33 +1,28 @@
 import data from '../../assets/runewords.json';
+import { Runeword } from '../runeword';
+import { RwTableComponent } from '../rw-table/rw-table.component';
+import { RwCardsComponent } from '../rw-cards/rw-cards.component';
+import {VisualizationSelectorComponent} from '../visualization-selector/visualization-selector.component';
 import {Component} from '@angular/core';
 import {MatIconModule} from '@angular/material/icon';
 import {FormsModule} from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
-import { MatCardModule } from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatButtonModule} from '@angular/material/button';
 
-
-export interface Runeword {
-  name: string;
-  english: string;
-  level: string;
-  sockets: string;
-  runes: string[];
-  type: string[];
-  stats: string[];
-}
 
 @Component({
   selector: 'app-main',
   standalone: true,
   imports: [
+    RwTableComponent,
+    RwCardsComponent,
+    VisualizationSelectorComponent,
+    MatIconModule,
     MatFormFieldModule,
     MatInputModule,
     FormsModule,
-    MatIconModule,
-    MatCardModule,
     MatGridListModule,
     MatButtonModule
   ],
@@ -40,12 +35,12 @@ export class MainComponent {
   searchText: string = "";
   maxLevel: string = "";
   itemType: string = "";
-  visualizationMode: string = "cards";
+  visualizationMode: string = "table";
 
   constructor() {
     this.runewords = data as Runeword[];
     this.filtered_runewords = this.runewords;
-    this.visualizationMode = "cards";
+    this.visualizationMode = "table";
     this.searchText = "";
     this.maxLevel = "";
     this.itemType = "";
